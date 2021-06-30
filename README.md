@@ -18,4 +18,4 @@
 ## Social media links for AAII
 - [Youtube](https://www.youtube.com/channel/UCLpwr-48gchMdhc_F2a9hLg)
 - [Linkedin](https://www.linkedin.com/in/assam-ai-initiative-aaii-5aa108205)
-- Mail us at [AAII-Axom]('mailto:aaiiaxomi@gmail.com')
+- Mail us at *aaiiaxomi [at] gmail [dot] com*
