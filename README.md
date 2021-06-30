@@ -14,3 +14,8 @@
 - `Event organization:` Experienced researchers/scientists from industry and academia will be invited to deliver talks/tutorials on AI/ML/DL/RL. And also interview them on specific problems related to the Assam or NE region, and the possibilities to solve them using AI.
 
 - `AI popularization:` Several activities, such as general AI talks for school children/non-specialists and general AI-related articles, will be conducted to promote AI.
+
+## Social media links for AAII
+- [Youtube](https://www.youtube.com/channel/UCLpwr-48gchMdhc_F2a9hLg)
+- [Linkedin](https://www.linkedin.com/in/assam-ai-initiative-aaii-5aa108205)
+- Mail us at [AAII-Axom]('mailto:aaiiaxomi@gmail.com')
