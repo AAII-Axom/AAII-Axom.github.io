@@ -1,9 +1,10 @@
 # Site
 name: 'Assam AI Initiative'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+description: 'Assam Artificial Intelligence Initiative (AAII – আই) is a non-profit initiative to promote various scopes of AI and build a network for students/researchers/industry persons to exchange their knowledge.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
+url : "https://aaii-axom.github.io"
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -19,22 +20,54 @@ plugins:
   - jekyll-seo-tag
   
 authors:
+
     sishir:
       name:           Sishir Kalita
       site:           https://www.wowthemes.net
       avatar:         /assets/images/sishir.jpg
-      bio:            "Hi, I am Sishir, the god of this universe!"
+      bio:            "Data Scientist at Armsoftech.air."
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
+    hridoy:
+      name:           Hridoy Sankar Dutta
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      avatar:         /assets/images/hridoy.png
+      bio:            "Research Assistant at University of Cambridge, PhD in Computer Science and Engineering at IIITD, "
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
- 
+
+    kulendu:
+      name:           Kulendu Kashyap Chakraborty
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/kulendu.png
+      bio:            "A CSE sophomore undergrad."
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+      
+    subhrat:
+      name:           Subhrat Kishore Dutta
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/subrat.png
+      bio:            "Final year student in the Dept. of Computer Science and Engineering at Assam Engineering College"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+    samir:
+      name:           Samir Boro
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Final year student in the Dept. of Computer Science and Engineering at IIITG"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+    gayatri:
+      name:           Gayatri Sharma
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Sophomore in the Dept. of Mechanical Engineering at Assam Engineering College"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
 # Defaults
 defaults:
 
