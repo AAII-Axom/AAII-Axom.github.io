@@ -1,5 +1,5 @@
 # Site
-name: 'Mundana'
+name: 'Assam AI Initiative'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -19,11 +19,11 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
+    sishir:
+      name:           Sishir Kalita
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
+      avatar:         /assets/images/sishir.jpg
+      bio:            "Hi, I am Sishir, the god of this universe!"
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
