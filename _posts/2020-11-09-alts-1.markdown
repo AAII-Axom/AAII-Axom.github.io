@@ -1,0 +1,33 @@
+---
+layout: post
+title: AAII Technical Lecture Series (ATLS-1)
+subtitle: 𝐃𝐞𝐛𝐦𝐚𝐥𝐲𝐚 𝐂𝐡𝐚𝐤𝐫𝐚𝐛𝐚𝐫𝐭𝐲 (𝐏𝐡.𝐃., 𝐉𝐨𝐡𝐧 𝐇𝐨𝐩𝐤𝐢𝐧𝐬 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐲, 𝐔𝐒𝐀), 𝐀𝐩𝐩𝐥𝐢𝐞𝐝 𝐒𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭, 𝐀𝐦𝐚𝐳𝐨𝐧 𝐀𝐥𝐞𝐱𝐚
+tags: [Conversational AI, machine-learning]
+image: assets/images/debmalya.png
+---
+# AAII Technical Lecture Series (ATLS-1)
+
+>Conversational AI is one of the most promising voice technologies industries are working on. It is a technology that enables seamless communication between computers and humans.
+
+In this first session of our AAII technical Lecture Series (ATLS - 1), Dr. Debamalay Chakrabarty, currently working as Applied Scientist in the Amazon Alexa Machine learning team, was invited to enlighten us on Conversational AI. He also covered other topics related to the AI field, such as current trends in the AI industry and what basic skills one should have to enter an AI industry.
+
+### The outline of the talk was -
+* 𝐃𝐞𝐛𝐦𝐚𝐥𝐲𝐚's brief work journey (NIT to JHU, USA and Amazon Alexa)
+* About his PhD - "Auditory Scene Analysis"
+* Building a conversation AI agent
+* Basic skills one should have to enter an AI industry 
+
+#### Speaker
+Dr. Debamalay Chakraborty is an alumnus of the National Institute of Technology (NIT), Silchar, Assam, where he pursued his electronics and communications engineering bachelor. He did his Ph.D. from the Department of Electrical and Computer Engineering, Johns Hopkins University (JHU), USA, in 2018. His primary interest lies in understanding how the brain perceives sound and builds good machine learning models based on this understanding. His research mainly lies at the intersection of machine learning and signal processing. He published several research articles in reputed journals and conferences. 
+[![Linkedin]()](https://www.linkedin.com/in/debmalya-chakrabarty-9a650528/)
+[![Google Scholar]()](https://scholar.google.com/citations?user=4Aw6qlMAAAAJ&hl=en)
+
+```
+𝐒𝐩𝐞𝐚𝐤𝐞𝐫: 𝐃𝐞𝐛𝐦𝐚𝐥𝐲𝐚 𝐂𝐡𝐚𝐤𝐫𝐚𝐛𝐚𝐫𝐭𝐲 (𝐏𝐡.𝐃., 𝐉𝐨𝐡𝐧 𝐇𝐨𝐩𝐤𝐢𝐧𝐬 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐲, 𝐔𝐒𝐀)
+𝐀𝐩𝐩𝐥𝐢𝐞𝐝 𝐒𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭, 𝐀𝐦𝐚𝐳𝐨𝐧 𝐀𝐥𝐞𝐱𝐚
+𝐓𝐨𝐩𝐢𝐜: 𝐑𝐞𝐜𝐞𝐧𝐭 𝐭𝐫𝐞𝐧𝐝𝐬 𝐢𝐧 𝐜𝐨𝐧𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐀𝐈
+𝐃𝐚𝐭𝐞: 𝟖 𝐍𝐨𝐯𝐞𝐦𝐛𝐞𝐫 𝟐𝟎𝟐𝟎
+𝐓𝐢𝐦𝐞: 𝟓 𝐏𝐌 (𝐈𝐒𝐓)
+```
+<p><iframe width="720" height="415" src="https://www.youtube.com/embed/O2pyvum7fYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+

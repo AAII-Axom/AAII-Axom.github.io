@@ -1,0 +1,44 @@
+# AAII Technical Lecture Series (ATLS-5)
+
+Speaker: Ankur Deka (BTech, IIT Guwahati | MS Student, Carnegie Mellon University, USA)
+Topic: Reinforcement Learning (RL) and Multi Agent RL
+Date: 20 February 2021
+Time: 10 AM (IST)
+
+>Several real-world problems require an agent (could be a human or a robot) to take sequential actions - playing games, walking, cooking, the list goes on. It is hard to hand-code these actions in many scenarios. RL is a branch of Machine Learning that enables an agent to excel at a sequential action task through practice, trial and error, and a reward/punishment signal. Imagine how you learned skills in the real world through trial and error and practice. 
+
+In this session, Ankur Deka gave a brief overview of RL and Multi-Agent RL. And also, he talked about how you can prepare yourself for MS in the USA.
+
+### The outline of the talk was -
+* What is Machine Learning?
+* What is Deep Learning
+* What is Reinforcement Learning
+* Basics of Multi Agent RL (MARL)
+* Emergent Multi-Agent Strategies
+* Getting started with RL
+* Preparing for MS
+
+Related links:
+- Youtube Link of the talk: [![ATLS 5]()](https://www.youtube.com/watch?v=L7cZIwLQZoE)
+- [![Presentation slides]()](https://drive.google.com/file/d/1WO8n7aithLdG_mFeUB0dCRhpalAnopww/view?usp=sharing) 
+- Books:
+    - [![Reinforcement Learning: An Introduction]()](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+- Courses
+    - ULC: [![UCL Course on RL]()](https://www.davidsilver.uk/teaching/)
+    - Deep Mind: [![Introdutio to RL]()](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
+    - Berkeley CA: [![Deep RL Bootcamp]()](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+- Start learning hands-on!
+    - [![Emergent-Multiagent-Strategies]()](https://github.com/Ankur-Deka/Emergent-Multiagent-Strategies)
+    - [![OpenAI gym]()](https://gym.openai.com/docs/)
+    - [![OpenAI Spinning Up]()](https://spinningup.openai.com/en/latest/)
+- Demo!
+    - [![RL on RC Car]()](https://www.youtube.com/watch?v=U0-Jswwf0hw)
+
+
+### About speaker:
+Ankur Deka is currently pursuing Master of Science in Robotics Institute, Carnegie Mellon University, USA. He did his B.Tech in ECE from the Indian Institute of Technology Guwahati (IITG) with CSE minor. He is interested in developing algorithms for deploying real-world robots that can evolve by learning and work seamlessly in uncertain environments. 
+Contact: 
+- [![LinkedIn]()](https://www.linkedin.com/in/ankur-deka/)
+- [![Google Scholar]()](https://scholar.google.com/citations?user=CaBIO8cAAAAJ&hl=en)
+- [![GitHub]()](https://github.com/Ankur-Deka)
+- [![Youtube]()](https://www.youtube.com/channel/UCSQTHva-Z2N0rSJsyWQy_pQ)
