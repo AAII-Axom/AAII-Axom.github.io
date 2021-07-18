@@ -2,7 +2,7 @@
 name: 'Assam AI Initiative'
 description: 'Assam Artificial Intelligence Initiative (AAII – আই) is a non-profit initiative to promote various scopes of AI and build a network for students/researchers/industry persons to exchange their knowledge.'
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/favicon-png.png'
 baseurl: ''
 url : "https://aaii-axom.github.io"
 disqus: 'demowebsite'
@@ -29,6 +29,15 @@ authors:
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
+    parismita:
+      name:           Parismita Gogoi
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/parishmita.jpeg
+      bio:            "Asst. Prof in the Dept. of ECE at Dibrugarh University"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+
     hridoy:
       name:           Hridoy Sankar Dutta
       site:           https://www.wowthemes.net
@@ -41,7 +50,7 @@ authors:
       name:           Kulendu Kashyap Chakraborty
       site:           https://www.wowthemes.net
       avatar:         /assets/images/kulendu.png
-      bio:            "A CSE sophomore undergrad."
+      bio:            "Second year student in the Dept. of Computer Science and Engineering"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
       
@@ -65,9 +74,12 @@ authors:
       name:           Gayatri Sharma
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
-      bio:            "Sophomore in the Dept. of Mechanical Engineering at Assam Engineering College"
+      bio:            "Second year student in the Dept. of Mechanical Engineering at Assam Engineering College"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
+
+
+
 # Defaults
 defaults:
 
