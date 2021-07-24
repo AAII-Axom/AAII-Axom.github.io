@@ -104,7 +104,8 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
-
+# Google Analytics
+google_analytics: "" # <--- paste the TRACKING ID here.
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
