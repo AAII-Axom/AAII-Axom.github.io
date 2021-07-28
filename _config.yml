@@ -78,7 +78,54 @@ authors:
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
+speakers:
+    ankur:
+      name:           Ankur Deka
+      linkedin:       https://www.linkedin.com/in/ankur-deka/
+      speaker-img:    /assets/images/ankur.jpeg
+      bio:            "Master's student at the Robotics Institute, Carnegie Mellon University (CMU) working on Multi Agent Reinforcement Learning (MARL)."
+      email:          wowthemesnet@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
 
+    homanga:
+      name:           Homanga Bharadwaj
+      linkedin:       https://www.linkedin.com/in/homanga/
+      speaker-img:    /assets/images/homanga.png
+      bio:            "Incoming Ph.D at CMU"
+      email:          wowthemesnet@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+    kartik:
+      name:           Kartik Agarwal
+      linkedin:       https://www.linkedin.com/in/kartikaggarwal98/
+      speaker-img:    /assets/images/kartik.jpeg
+      bio:            ""
+      email:          wowthemesnet@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+    debanga:
+      name:           Debanga Raj Neog
+      linkedin:       https://www.wowthemes.net
+      speaker-img:    /assets/images/debanga.jpg
+      bio:            ""
+      email:          wowthemesnet@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+    purvi:
+      name:           Dr.Purvi Agarwal
+      linkedin:       https://www.wowthemes.net
+      speaker-img:    /assets/images/debanga.jpeg
+      bio:            ""
+      email:          wowthemesnet@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+    nagaraj:
+      name:           Nagaraj Adiga
+      linkedin:       https://www.wowthemes.net
+      speaker-img:    /assets/images/nagaraj.jpeg
+      bio:            ""
+      email:          wowthemesnet@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
 
 # Defaults
 defaults:
