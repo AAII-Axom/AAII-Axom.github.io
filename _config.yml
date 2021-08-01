@@ -82,7 +82,7 @@ speakers:
     ankur:
       name:           Ankur Deka
       linkedin:       https://www.linkedin.com/in/ankur-deka/
-      speaker-img:    /assets/images/ankur.jpeg
+      speaker-img:    /assets/images/ankur-1.jpeg
       bio:            "Master's student at the Robotics Institute, Carnegie Mellon University (CMU) working on Multi Agent Reinforcement Learning (MARL)."
 
     homanga:
@@ -95,25 +95,31 @@ speakers:
       name:           Kartik Agarwal
       linkedin:       https://www.linkedin.com/in/kartikaggarwal98/
       speaker-img:    /assets/images/kartik.jpeg
-      bio:            ""
+      bio:            "Incoming MS nlp@ UCSC."
 
     debanga:
       name:           Debanga Raj Neog
-      linkedin:       https://www.wowthemes.net
+      linkedin:       https://www.linkedin.com/in/debanga/
       speaker-img:    /assets/images/debanga.jpg
-      bio:            ""
+      bio:            " Co-founder and CTO at Nytilus, a computational imaging startup for industrial applications."
 
     purvi:
       name:           Dr. Purvi Agarwal
-      linkedin:       https://www.wowthemes.net
+      linkedin:       https://www.linkedin.com/in/purvi-agrawal-20288725/
       speaker-img:    /assets/images/purvi.jpeg
-      bio:            ""
+      bio:            "Ph.D. Scholar @ LEAP Lab, Department of Electrical Engineering, Indian Institute of Science"
 
     nagaraj:
       name:           Nagaraj Adiga
-      linkedin:       https://www.wowthemes.net
+      linkedin:       https://www.linkedin.com/in/nagaraj-adiga-7a67658/
       speaker-img:    /assets/images/nagaraj.jpeg
-      bio:            ""
+      bio:            "Senior Research Scientist at Zapr Media Labs, Bengaluru."
+
+    saurav:
+      name:           Saurav Talukdar
+      linkedin:       https://www.linkedin.com/in/stalukdar/
+      speaker-img:    /assets/images/saurav.jpg
+      bio:            "Control System Engineer at Google, Ex-Battery Algorithm Engineer at Apple"
 
 # Defaults
 defaults:

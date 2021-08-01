@@ -69,9 +69,9 @@ permalink: "/speakers-list.html"
                     <img src="{{site.url}}/{{ speaker[1].speaker-img }}" alt="Avatar" style="width:200px;height:200px;">
                 </div>
                 <div class="flip-card-back">
-                    <h4>{{ speaker[1].name }}</h4>
+                    <a target="_blank" href="{{ speaker[1].linkedin }}" style="text-decoration: none; color: #fff;"> <h4> {{ speaker[1].name }} </h4> </a>
                     <p>{{ speaker[1].bio }}</p>
-                    <a target="_blank" href="{{ speaker[1].linkedin }}"><i class="fab fa-linkedin text-muted" aria-hidden="true"></i></a> &nbsp;
+                    <!-- <a target="_blank" href="{{ speaker[1].linkedin }}"><i class="fab fa-linkedin text-muted" aria-hidden="true"></i></a> &nbsp; -->
                 </div>
                 </div>
             </div>
