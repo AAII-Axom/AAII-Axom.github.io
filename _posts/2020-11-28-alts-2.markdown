@@ -18,15 +18,15 @@ To explore this exciting topic, AAII invited Dr. Nagaraj Adiga, a senior researc
 * Demo - How to train a GAN model
 
 Related links:
-- [![Presentation slides]()](https://drive.google.com/file/d/1jYiOPkCXfzMg_I5lckVDSrMNPhZaZFw7/view?usp=sharing) 
-- [![GAN Paper]()](https://arxiv.org/abs/1406.2661)
-- [![GAN Zoo]()](https://github.com/hindupuravinash/the-gan-zoo)
-- [![GAN Applications]()](https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/)
+- [Presentation slides](https://drive.google.com/file/d/1jYiOPkCXfzMg_I5lckVDSrMNPhZaZFw7/view?usp=sharing) 
+- [GAN Paper](https://arxiv.org/abs/1406.2661)
+- [GAN Zoo](https://github.com/hindupuravinash/the-gan-zoo)
+- [GAN Applications](https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/)
 
 About speaker:
 Dr. Nagaraj Adiga is currently working on the GANs and autoregressive architectures for different speech applications like Enhancement, Recognition, Synthesis, and Voice Conversion. Before joining Zapr Media Labs as a research scientist, he worked as a post-doctoral researcher at the University of Crete, Greece, and a Signal Processing Engineer in Apple Inc. in developing neural-based text to speech (TTS) systems in noisy scenarios. 
-[![Linkedin]()](https://www.linkedin.com/in/nagaraj-adiga-7a67658/?originalSubdomain=in)
-[![Google Scholar]()](https://scholar.google.co.in/citations?user=occk2mMAAAAJ&hl=en)
+[Linkedin](https://www.linkedin.com/in/nagaraj-adiga-7a67658/?originalSubdomain=in)
+[Google Scholar](https://scholar.google.co.in/citations?user=occk2mMAAAAJ&hl=en)
 
 
 
