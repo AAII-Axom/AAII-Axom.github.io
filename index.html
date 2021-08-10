@@ -10,12 +10,12 @@ description: "A community for AI enthusiast in Assam"
 <div class="container">
 
     <!-- marquee for the upcoming events  -->
-    <marquee>
+    <!-- <marquee>
         <b style="color: rgb(255, 88, 88);">Upcoming Talk </b> by Saurav Talukdar, Control System Engineer at Google, USA | 
         <b style="color: rgb(255, 88, 88);">Topic: </b>An intro to Hardware & Software Infrastructure for Large Scale Computing. | 
         <b style="color: rgb(255, 88, 88);">Date:</b> 8th August, 2021 | <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2Fs-flHRDVVj4%3Ffbclid%3DIwAR2K1NarDf9yF-Fu13_OOXWHl_WAMFfF18Ygw3f9_iXnlr4blOcMXv3iTQ4&h=AT3w9evv-eMolXXGuiRXkzp_xQ39BzsuVY_jsfOrKMvJz_xpZk76XTxTHQH0SMWkYIo7w-xd9usMEeusWFsDzSVi5kwCML5OgwHaOxzaV1pBWIuHMlymhgOeKereej4w4NdSrPg7pBmK&__tn__=-UK*F&c[0]=AT1MsmVPWcbu-LF9zP5ngR6fcSSbhJ3LQG_uA3h9JizmJN2hojatauxljklHHv_04EoqV0ySnOtnSwlpTvE_PQ2QAO4wQStfvzO9bTVvwepU_4xHuJTBMW7ek8wsS3zOR3hSTZ9hyPxOAIfG3hxoOKSc3ccvDpM45nFngsDhlAI8jQ">YouTube link</a>
     </marquee>
-    <br>
+    <br> -->
     
 {% if page.url == "/" %}
     
@@ -41,6 +41,79 @@ description: "A community for AI enthusiast in Assam"
 {% endif %}
 {% endfor %}
 <br>
+
+
+<!-- upcoming talks  -->
+
+<h4 class="font-weight-bold spanborder"><span>Upcoming Events</span></h4>
+<!-- Begin post excerpts, let's highlight the first 3 posts on top -->
+<div class="row remove-site-content-margin">
+    
+    <!-- latest post -->
+    {% assign latest_post = site.posts[1] %}
+    <div class="col-md-6">
+    <div class="card border-0 mb-4 box-shadow">   
+    <a href="{{site.baseurl}}{{latest_post.url}}">
+    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+    </h2>
+    <p class="excerpt">
+        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+    </p>
+    <div>
+        <small class="d-block text-muted">
+            In <span class="catlist">
+                {% for category in latest_post.categories %}
+                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                {% endfor %}
+                </span>                   
+        </small>
+        <small class="text-muted">
+            {{ latest_post.date | date: '%b %d, %Y' }}
+        </small>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-md-6">
+        
+        <!-- second latest post -->
+        {%- assign second_post = site.posts[2] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if second_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{second_post.url}}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in second_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ second_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+
+<!-- past events  -->
 
 <h4 class="font-weight-bold spanborder"><span>Past Events</span></h4>
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
@@ -79,7 +152,7 @@ description: "A community for AI enthusiast in Assam"
     <div class="col-md-6">
         
         <!-- second latest post -->
-        {%- assign second_post = site.posts[1] -%}        
+        {%- assign second_post = site.posts[3] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -106,7 +179,7 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- third latest post -->
-        {%- assign third_post = site.posts[2] -%}        
+        {%- assign third_post = site.posts[4] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
                 <div class="col-md-4">
@@ -133,7 +206,7 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- fourth latest post -->
-        {%- assign fourth_post = site.posts[3] -%}        
+        {%- assign fourth_post = site.posts[5] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="col-md-4">

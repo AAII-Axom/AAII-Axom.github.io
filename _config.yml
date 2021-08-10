@@ -114,6 +114,16 @@ speakers:
       linkedin:       https://www.linkedin.com/in/stalukdar/
       speaker-img:    /assets/images/saurav.jpg
 
+    santonu:
+      name:           Santonu Goswami
+      linkedin:       https://www.linkedin.com/in/santonugoswami
+      speaker-img:    /assets/images/santonu.jpeg
+
+    biswadeep:
+      name:           Biswadeep Khan
+      linkedin:       https://www.linkedin.com/in/biswadeep-khan-442ba340
+      speaker-img:    /assets/images/biswadeep_khan.jpg
+
 # Defaults
 defaults:
 
