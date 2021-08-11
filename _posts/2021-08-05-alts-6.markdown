@@ -1,0 +1,26 @@
+---
+layout: post
+title: AAII Technical Lecture Series (ATLS-6)
+subtitle: Saurav Talukdar, Control System Engineer at Google, USA
+tags: [Hardware and Software Infrastructure, Large scale computing]
+image: assets/images/saurav.jpg
+---
+
+# AAII Technical Lecture Series (ATLS-6)
+
+Introduction to Hardware and Software Infrastructure for Large Scale Computing with an excursion to Google's Carbon Intelligent Computing Platform 
+
+#### Speaker
+Dr. Saurav is currently working as a Control system engineer at Google, USA, where he is working towards improving the efficiency of Google Data Centers. Before joining Google, he did his Ph.D. from the University of Minnesota, USA. Dr. Saurav is an alumnus of IIT Bombay, where he pursued his BTech and MTech in Mechanical Engineering. His research interest includes optimization-based control, statistical modeling of data center power utilization, and Carbon-Aware computing for data centers.
+
+- [LinkedIn](https://www.linkedin.com/in/saurav-talukdar-b727a21b/)
+- [Google Scholar](https://scholar.google.co.in/citations?user=LjbbUMUAAAAJ&hl=en&fbclid=IwAR0kjpdoQTThnBrdX0X4bVgvHH93xweH7fGiBX0MW1E1MP9fzM7eANuxT-0)
+
+```
+Speaker:  Dr. Saurav Talukdar, Control system engineer, Google, USA
+Topic:  Introduction to Hardware and Software Infrastructure for Large Scale Computing with an excursion to Google's Carbon Intelligent Computing Platform
+Date: 8 August, 2021
+Time: 7:30 PM (IST)
+```
+
+<iframe width="720" height="415" src="https://www.youtube.com/watch?v=s-flHRDVVj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
