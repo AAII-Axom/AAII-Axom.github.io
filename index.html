@@ -6,44 +6,80 @@ pagination:
 description: "A community for AI enthusiast in Assam"
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="container">
 
-    <!-- marquee for the upcoming events  -->
-    <!-- <marquee>
-        <b style="color: rgb(255, 88, 88);">Upcoming Talk </b> by Biswadeep Khan, Ph.D. Researcher, Hong Kong University, Hong Kong | 
-        <b style="color: rgb(255, 88, 88);">Topic: </b>"Exploring the Brain." | 
-        <b style="color: rgb(255, 88, 88);">Date:</b> 22nd August, 2021 | <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCLpwr-48gchMdhc_F2a9hLg%3Ffbclid%3DIwAR0CGfhs7vU-wfqm83J9n4MjOFW33IE4OjOYy1FOwnAz6RqYkyKpsltnNBU&h=AT3KvdTqJLmkQpE-ElvNVnbuSszSKaQ58H5bZe6lj-mvXmgpgSsy8n4vhmEbaLLdBkP5uT1o-6rYEcYqJgxyUDoPl-TgLAN8yQ1r764lGSaTGo1BhkC7WzhHeSTYpy65kEvcgBpyWDTC&__tn__=-UK-R&c[0]=AT05jaLytk0HHhldKV1Zc7ncn5xemmvTeoYpMRCU73pg7W9qu8gdEoTcfoBfe4GB6CXKKbZ5y0y9a6I650cMFPe71vKlv_P7DUBuXmzp5xrCUUOEbPHXe_kwYDtl0esQboaXLZfdM--iF4glnxY2n-1d7s92SntzNR2akJH_xqiY-w">YouTube link</a>
-    </marquee>
-    <br> -->
     
     
-{% if page.url == "/" %}
-    
-<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
-{% for post in site.posts %} 
-{% if post.tags contains "sticky" %}
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
-    <div class="pl-4 pr-0 h-100 tofront">
-        <div class="row justify-content-between">
-            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{post.title}}</h1>
-                <p class="mb-3 lead">
-                    {{ post.excerpt | strip_html | strip_newlines }}
-                </p>
-                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
-                <a href="https://groups.google.com/u/3/g/aaiiaxom-members" class="btn btn-primary">Join our Google Group</a>
-            </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover; background-image:url({{site.baseurl}}/{{ post.image }});">    
-            </div>
-        </div>
+    {% if page.url == "/" %}
+  
+
+    <div class="jumbotron jumbotron-fluid jumbotron-home pt-3 pb-3 mt-3 mb-2rem">
+        <div style="width: 5%; float: left;"><i class="fas fa-arrow-alt-circle-right faa-horizontal animated fa-2x" style="color:#0000ff; display: block;" aria-hidden="true"></i></div>
+        <h4>Current openings</h4>
+        Exciting opportunities to work and volunteer with us at <b>AAII</b>. We have immediate openings for the roles and discipline on a variety of areas, such as <b>Event moderator</b>, <b>Content/Blog writer</b>, <b>Graphic designer</b>, and many more.
+        For more details, refer <a href="job-posts.html">here.</a>
     </div>
-</div> 
-{% endif %}
-{% endfor %}
+        
+    <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+    {% for post in site.posts %} 
+    {% if post.tags contains "aaii-main" %}
+    <div class="row">
+        <div class="col-md-3">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="R507opPm"></script>
+            <div class="fb-page" data-href="https://www.facebook.com/Assam-Artificial-Intelligence-Initiative-AAII-%E0%A6%86%E0%A6%87-109891140892931/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Assam-Artificial-Intelligence-Initiative-AAII-%E0%A6%86%E0%A6%87-109891140892931/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/Assam-Artificial-Intelligence-Initiative-AAII-%E0%A6%86%E0%A6%87-109891140892931/">Assam Artificial Intelligence Initiative - AAII - আই</a>
+                </blockquote>
+            </div>
+            <br>
+            <div class="row" >
+                <div class="jumbotron jumbotron-fluid jumbotron-home pt-3 pb-3 mt-3 mb-2rem ">
+                    <div style="width: 3%; float: left; margin: 0 20px;"><i class="fa fa-thumbtack faa-horizontal  fa-2x" style="color:#5e5e5e; display: block;" aria-hidden="true"></i></div>
+                    <h4>Upcoming Talks</h4>
+                    <hr>
+                    <marquee direction="up" scrollamount="2">
+                        <b style="color: rgb(255, 88, 88);">Upcoming Talk </b> by NextSpeaker | 
+                        <b style="color: rgb(255, 88, 88);">Topic: </b> "Topic for next talk" | 
+                        <b style="color: rgb(255, 88, 88);">Date:</b> Links
+                    </marquee>
+                    <br>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+   
+
+        <div class="col-md-9">
+            <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mb-2rem bg-lightblue position-relative">
+                <div class="pl-4 pr-0 h-100 tofront">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                            <h1 class="mb-3">{{post.title}}</h1>
+                            <p class="mb-3 lead">
+                                {{ post.excerpt | strip_html | strip_newlines }}
+                            </p>
+                            <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+                            <a href="https://groups.google.com/u/3/g/aaiiaxom-members" class="btn btn-primary">Join our Google Group</a>
+                        </div>
+                        <div class="col-md-6 d-none d-md-block pr-0" style="background-size:contain; background-size: 600px 370px;background-position: center; background-repeat: no-repeat;background-image:url({{site.baseurl}}/{{ post.image }});">    
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div> 
+
 <br>
 
 
+    <!-- marquee for the upcoming events  -->
+    
 <!-- upcoming talks  -->
 
 <h4 class="font-weight-bold spanborder"><span>Upcoming Events</span></h4>
@@ -237,7 +273,6 @@ description: "A community for AI enthusiast in Assam"
     
 </div>
     
-
 
 {% endif %} <!--endif page url is / -->
     
