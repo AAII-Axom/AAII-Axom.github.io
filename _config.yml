@@ -114,10 +114,10 @@ speakers:
       linkedin:       https://www.linkedin.com/in/stalukdar/
       speaker-img:    /assets/images/saurav.jpg
 
-    santonu:
-      name:           Santonu Goswami
-      linkedin:       https://www.linkedin.com/in/santonugoswami
-      speaker-img:    /assets/images/santonu.jpeg
+    # santonu:
+    #   name:           Santonu Goswami
+    #   linkedin:       https://www.linkedin.com/in/santonugoswami
+    #   speaker-img:    /assets/images/santonu.jpeg
 
     biswadeep:
       name:           Biswadeep Khan
@@ -129,21 +129,30 @@ speakers:
       linkedin:       https://www.linkedin.com/in/nabarun-goswami-28728759/
       speaker-img:    assets/images/nabarun-01.jpeg
 
+    banriskhem:
+      name:           Banriskhem K. Khonglah
+      linkedin:       https://www.linkedin.com/in/banriskhem-k-khonglah-60147589/
+      speaker-img:    assets/images/Banriskhem.jpeg
 
-    devamanyu :
-      name:           Devamanyu Hazarika
-      linkedin:       https://www.linkedin.com/in/devamanyu/
-      speaker-img:    /assets/images/devamanyu.jpg
+    debmalya:
+      name:           Debmalya Chakrabarty
+      linkedin:       https://www.linkedin.com/in/debmalya-chakrabarty-9a650528/
+      speaker-img:    assets/images/debmalya-01.jpeg
 
-    shakuntala :
-      name:           Dr. Shakuntala (Lata) Choudhury
-      linkedin:       https://www.linkedin.com/in/statistician2choudhury/
-      speaker-img:    /assets/images/shakuntala.jpeg
+    # devamanyu :
+    #   name:           Devamanyu Hazarika
+    #   linkedin:       https://www.linkedin.com/in/devamanyu/
+    #   speaker-img:    /assets/images/devamanyu.jpg
 
-    ayon :
-      name:           Dr. Ayon Borthakur
-      linkedin:       https://www.linkedin.com/in/ayonborthakur
-      speaker-img:    /assets/images/ayon.jpeg
+    # shakuntala :
+    #   name:           Dr. Shakuntala (Lata) Choudhury
+    #   linkedin:       https://www.linkedin.com/in/statistician2choudhury/
+    #   speaker-img:    /assets/images/shakuntala.jpeg
+
+    # ayon :
+    #   name:           Dr. Ayon Borthakur
+    #   linkedin:       https://www.linkedin.com/in/ayonborthakur
+    #   speaker-img:    /assets/images/ayon.jpeg
 
 
 # Defaults
@@ -156,6 +165,14 @@ defaults:
       layout: post
       author: sal
       avatar: /assets/images/avatar1.jpg
+
+  # past posts
+  # - scope:
+  #     path: "_pastposts"
+  #   values:
+  #     layout: post
+  #     author: hello
+
       
   # all pages
   - scope:
