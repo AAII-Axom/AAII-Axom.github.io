@@ -1,6 +1,6 @@
 
 <p align='center'>
-   <img src='assets/images/AAII-logo.png'>
+   <img src='assets/images/aaii-logo-circle.jpeg' style="border-radius:50%;">
 </p>
 
 ## Assam Artificial Intelligence Initiative (AAII)
