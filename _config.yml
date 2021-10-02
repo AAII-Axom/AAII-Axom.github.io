@@ -124,6 +124,28 @@ speakers:
       linkedin:       https://www.linkedin.com/in/biswadeep-khan-442ba340
       speaker-img:    /assets/images/biswadeep_khan.jpg
 
+    nabarun:
+      name:           Nabarun Goswami
+      linkedin:       https://www.linkedin.com/in/nabarun-goswami-28728759/
+      speaker-img:    assets/images/nabarun-01.jpeg
+
+
+    devamanyu :
+      name:           Devamanyu Hazarika
+      linkedin:       https://www.linkedin.com/in/devamanyu/
+      speaker-img:    /assets/images/devamanyu.jpg
+
+    shakuntala :
+      name:           Dr. Shakuntala (Lata) Choudhury
+      linkedin:       https://www.linkedin.com/in/statistician2choudhury/
+      speaker-img:    /assets/images/shakuntala.jpeg
+
+    ayon :
+      name:           Dr. Ayon Borthakur
+      linkedin:       https://www.linkedin.com/in/ayonborthakur
+      speaker-img:    /assets/images/ayon.jpeg
+
+
 # Defaults
 defaults:
 

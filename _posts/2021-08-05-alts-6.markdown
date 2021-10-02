@@ -3,7 +3,7 @@ layout: post
 title: AAII Technical Lecture Series (ATLS-6)
 subtitle: Saurav Talukdar, Control System Engineer at Google, USA
 tags: [Hardware and Software Infrastructure, Large scale computing]
-image: assets/images/saurav.jpg
+image: assets/images/saurav-talk.png
 ---
 
 # AAII Technical Lecture Series (ATLS-6)
