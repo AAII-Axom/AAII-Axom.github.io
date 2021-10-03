@@ -179,7 +179,14 @@ defaults:
       path: "_pages"
     values:
       layout: page
-      
+  
+# collection:
+#   - past_events:
+#       path: "_past_events"
+#       output: true 
+#   - upcoming_events:
+#       output: true 
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
