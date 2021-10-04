@@ -139,6 +139,11 @@ speakers:
       linkedin:       https://www.linkedin.com/in/debmalya-chakrabarty-9a650528/
       speaker-img:    assets/images/debmalya-01.jpeg
 
+    # ravi:
+    #   name:           Ravi Shankar
+    #   linkedin:       https://www.linkedin.com/in/ravi-shankar-jhuece/
+    #   speaker-img:    assets/images/Ravi_Shankar.png
+
     # devamanyu :
     #   name:           Devamanyu Hazarika
     #   linkedin:       https://www.linkedin.com/in/devamanyu/
