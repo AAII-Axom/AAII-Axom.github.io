@@ -170,7 +170,12 @@ defaults:
       layout: post
       author: sal
       avatar: /assets/images/avatar1.jpg
-
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sishir
+      avatar: /assets/images/avatar1.jpg
   # past posts
   # - scope:
   #     path: "_pastposts"
