@@ -96,7 +96,7 @@ description: "A community for AI enthusiast in Assam"
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
-    {% assign latest_post = site.posts[0] %}
+    {% assign latest_post = site.posts[1] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
@@ -111,14 +111,14 @@ description: "A community for AI enthusiast in Assam"
     </p>
     <div>
         <small class="d-block text-muted">
-            In <span class="catlist">
+                <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
                 </span>                   
         </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }}
+            Posted on {{ latest_post.date | date: '%b %d, %Y' }}
         </small>
     </div>
     </div>
@@ -128,7 +128,7 @@ description: "A community for AI enthusiast in Assam"
     <div class="col-md-6">
         
         <!-- second latest post -->
-        {%- assign second_post = site.posts[1] -%}        
+        {%- assign second_post = site.posts[0] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -141,72 +141,52 @@ description: "A community for AI enthusiast in Assam"
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
+                    <p class="excerpt">
+                        {{ second_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                    </p>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ second_post.date | date: '%b %d, %Y' }}
+                        Posted on {{ second_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
 
         <!-- third latest post -->
-            {%- assign second_post = site.posts[2] -%}        
+            {%- assign third_post = site.posts[3] -%}        
             <div class="mb-3 d-flex align-items-center">                
-                    {% if second_post.image %}
+                    {% if third_post.image %}
                     <div class="col-md-4">
-                    <a href="{{site.baseurl}}{{second_post.url}}">
-                     <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                    <a href="{{site.baseurl}}{{third_post.url}}">
+                     <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{ third_post.image | absolute_url }}{% endif %}" alt="{{ third_post.title }}">
                     </a>
                     </div>
                     {% endif %}                
                     <div>
                         <h2 class="mb-2 h6 font-weight-bold">
-                        <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                        <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                         </h2>
+                        <p class="excerpt">
+                            {{ third_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                        </p>
                         <small class="d-block text-muted">
-                            In <span class="catlist">
-                            {% for category in second_post.categories %}
+                            <span class="catlist">
+                            {% for category in third_post.categories %}
                             <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                             {% endfor %}
                             </span>                   
                         </small>
                         <small class="text-muted">
-                            {{ second_post.date | date: '%b %d, %Y' }}
+                            Posted on {{ third_post.date | date: '%b %d, %Y' }}
                         </small>
                     </div>
                 </div>
 
-        <!-- fourth latest post -->
-        {%- assign second_post = site.posts[5] -%}        
-        <div class="mb-3 d-flex align-items-center">                
-                {% if second_post.image %}
-                <div class="col-md-4">
-                <a href="{{site.baseurl}}{{second_post.url}}">
-                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
-                </a>
-                </div>
-                {% endif %}                
-                <div>
-                    <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
-                    </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        {% for category in second_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                        {% endfor %}
-                        </span>                   
-                    </small>
-                    <small class="text-muted">
-                        {{ second_post.date | date: '%b %d, %Y' }}
-                    </small>
-                </div>
-            </div>
         
     </div>
 </div>
@@ -221,7 +201,7 @@ description: "A community for AI enthusiast in Assam"
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
-    {% assign latest_post = site.posts[6] %}
+    {% assign latest_post = site.posts[2] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
@@ -236,14 +216,14 @@ description: "A community for AI enthusiast in Assam"
     </p>
     <div>
         <small class="d-block text-muted">
-            In <span class="catlist">
+                <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
                 </span>                   
         </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }}
+            Posted on {{ latest_post.date | date: '%b %d, %Y' }}
         </small>
     </div>
     </div>
@@ -253,7 +233,7 @@ description: "A community for AI enthusiast in Assam"
     <div class="col-md-6">
         
         <!-- second latest post -->
-        {%- assign second_post = site.posts[4] -%}        
+        {%- assign second_post = site.posts[5] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -267,20 +247,20 @@ description: "A community for AI enthusiast in Assam"
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ second_post.date | date: '%b %d, %Y' }}
+                        Posted on {{ second_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
         
         <!-- third latest post -->
-        {%- assign third_post = site.posts[7] -%}        
+        {%- assign third_post = site.posts[6] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
                 <div class="col-md-4">
@@ -294,20 +274,20 @@ description: "A community for AI enthusiast in Assam"
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in third_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ third_post.date | date: '%b %d, %Y' }}
+                        Posted on {{ third_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
         
         <!-- fourth latest post -->
-        {%- assign fourth_post = site.posts[8] -%}        
+        {%- assign fourth_post = site.posts[4] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="col-md-4">
@@ -321,14 +301,14 @@ description: "A community for AI enthusiast in Assam"
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in fourth_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ fourth_post.date | date: '%b %d, %Y' }}
+                        Posted on {{ fourth_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
