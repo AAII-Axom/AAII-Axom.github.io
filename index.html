@@ -39,10 +39,6 @@ description: "A community for AI enthusiast in Assam"
                     <h4>Latest Events</h4>
                     <hr>
                     <marquee direction="up" style="height: 100px;" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-                        <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/ravi-shankar-jhuece/">Ravi Shankar</a> | 
-                        <b style="color: rgb(255, 88, 88); ">Topic: </b> "Manipulating Emotions: Generative Modeling for Expressive Speech Synthesis" | 
-                        <b style="color: rgb(255, 88, 88); ">Date:</b> 16th Oct, 2021
-                        <hr>
                         <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/nabarun-goswami-28728759/">Nabarun Goswami</a> | 
                         <b style="color: rgb(255, 88, 88); ">Topic: </b> " Audio processing with Deep learning (Tentative)" | 
                         <b style="color: rgb(255, 88, 88); ">Date:</b> 31st Oct, 2021
@@ -159,7 +155,7 @@ description: "A community for AI enthusiast in Assam"
 
         <!-- third latest post -->
             {%- assign third_post = site.posts[3] -%}        
-            <div class="mb-3 d-flex align-items-center">                
+            <!-- <div class="mb-3 d-flex align-items-center">                
                     {% if third_post.image %}
                     <div class="col-md-4">
                     <a href="{{site.baseurl}}{{third_post.url}}">
@@ -185,7 +181,7 @@ description: "A community for AI enthusiast in Assam"
                             Posted on {{ third_post.date | date: '%b %d, %Y' }}
                         </small>
                     </div>
-                </div>
+                </div> -->
 
         
     </div>
@@ -201,7 +197,7 @@ description: "A community for AI enthusiast in Assam"
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
-    {% assign latest_post = site.posts[2] %}
+    {% assign latest_post = site.posts[3] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
@@ -233,7 +229,7 @@ description: "A community for AI enthusiast in Assam"
     <div class="col-md-6">
         
         <!-- second latest post -->
-        {%- assign second_post = site.posts[5] -%}        
+        {%- assign second_post = site.posts[2] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -260,7 +256,7 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- third latest post -->
-        {%- assign third_post = site.posts[6] -%}        
+        {%- assign third_post = site.posts[5] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
                 <div class="col-md-4">
@@ -287,7 +283,7 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- fourth latest post -->
-        {%- assign fourth_post = site.posts[4] -%}        
+        {%- assign fourth_post = site.posts[6] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="col-md-4">
