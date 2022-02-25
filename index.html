@@ -39,12 +39,12 @@ description: "A community for AI enthusiast in Assam"
                     <h4>Latest Events</h4>
                     <hr>
                     <marquee direction="up" style="height: 100px;" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-                        <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/statistician2choudhury/">Dr. Shakuntala (Lata) Choudhury</a> | 
-                        <b style="color: rgb(255, 88, 88); ">Topic: </b> "Thought Leadership in Data Science during the Covid-19 Pandemic with emphasis on Healthcare Analytics" | 
-                        <b style="color: rgb(255, 88, 88); ">Date:</b> 23 December (Thursday) 2021 | 8:30PM (IST)
+                        <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/bhaskar-deka-62a4171/">Bhaskar Deka,</a> | 
+                        <b style="color: rgb(255, 88, 88); ">Topic: </b> "Building AI Powered Products - A Silicon Valley Journey" | 
+                        <b style="color: rgb(255, 88, 88); ">Date:</b> 26 February (Saturday) 2022  | 10:00 AM (IST)
                         <hr>
-                        <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/ayonborthakur/">Dr. Ayon Borthakur</a> | 
-                        <b style="color: rgb(255, 88, 88); ">Topic: </b> "Machine learning with spike (Tentative)" | 
+                        <!-- <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/ayonborthakur/">Dr. Ayon Borthakur</a> | 
+                        <b style="color: rgb(255, 88, 88); ">Topic: </b> "Machine learning with spike (Tentative)" |  -->
                         <!-- <b style="color: rgb(255, 88, 88); ">Date:</b> 4th Dec, 2021 -->
                         <hr>
 
@@ -91,7 +91,7 @@ description: "A community for AI enthusiast in Assam"
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
-    {% assign latest_post = site.posts[0] %}
+    {% assign latest_post = site.posts[4] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
@@ -123,7 +123,7 @@ description: "A community for AI enthusiast in Assam"
     <div class="col-md-6">
         
         <!-- second latest post -->
-        {%- assign second_post = site.posts[2] -%}        
+        {%- assign second_post = site.posts[1] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -153,8 +153,8 @@ description: "A community for AI enthusiast in Assam"
             </div>
 
         <!-- third latest post -->
-            {%- assign third_post = site.posts[3] -%}        
-            <!-- <div class="mb-3 d-flex align-items-center">                
+            {%- assign third_post = site.posts[0] -%}        
+            <div class="mb-3 d-flex align-items-center">                
                     {% if third_post.image %}
                     <div class="col-md-4">
                     <a href="{{site.baseurl}}{{third_post.url}}">
@@ -180,7 +180,7 @@ description: "A community for AI enthusiast in Assam"
                             Posted on {{ third_post.date | date: '%b %d, %Y' }}
                         </small>
                     </div>
-                </div> -->
+                </div>
 
         
     </div>
@@ -196,7 +196,7 @@ description: "A community for AI enthusiast in Assam"
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
-    {% assign latest_post = site.posts[1] %}
+    {% assign latest_post = site.posts[2] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
@@ -228,7 +228,7 @@ description: "A community for AI enthusiast in Assam"
     <div class="col-md-6">
         
         <!-- second latest post -->
-        {%- assign second_post = site.posts[4] -%}        
+        {%- assign second_post = site.posts[3] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -255,7 +255,7 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- third latest post -->
-        {%- assign third_post = site.posts[3] -%}        
+        {%- assign third_post = site.posts[6] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
                 <div class="col-md-4">
@@ -282,7 +282,7 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- fourth latest post -->
-        {%- assign fourth_post = site.posts[6] -%}        
+        {%- assign fourth_post = site.posts[5] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="col-md-4">
