@@ -8,64 +8,15 @@ permalink: "/speakers-list.html"
     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
     .flip-card {
     background-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 1px solid #f1f1f1;
-    margin: 25px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
     border-radius: 100%;
+    margin-bottom: 12%;
+    margin-right: 3%;
     }
 
-    /* This container is needed to position the front and back side */
-    .flip-card-inner {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    border-radius: 100%;
-    }
-
-    /* Do an horizontal flip when you move the mouse over the flip box container */
-    .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-    }
-
-    /* Position the front and back side */
-    .flip-card-front, .flip-card-back {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    border-radius: 100%;
-    }
-
-    /* Style the front side (fallback if image is missing) */
-    .flip-card-front {
-    border-radius: 100%;
-    background-color: #bbb;
-    color: black;
-    height: 200px;
-    width: 200px;
-    }
-
-    /* Style the back side */
-    .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    font-size: small;
-    text-align: center;
-    border-radius: 100%;
-    align-items: center;
-    justify-content: center;
-    place-items: center;
-    }
+    
 
 </style>
 
@@ -76,13 +27,9 @@ permalink: "/speakers-list.html"
             <div class="flip-card">
                 <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="{{site.url}}/{{ speaker[1].speaker-img }}" alt="Avatar" style="width:200px;height:200px;border-radius: 100%;">
-                </div>
-                <div class="flip-card-back">
-                    <br>
-                    <br>
-                    <a target="_blank" href="{{ speaker[1].linkedin }}" style="text-decoration: none; color: #fff; text-align: center;"> <h4 class="speaker-name"> {{ speaker[1].name }} </h4> </a>
-                    <!-- <a target="_blank" href="{{ speaker[1].linkedin }}"><i class="fab fa-linkedin text-muted" aria-hidden="true"></i></a> &nbsp; -->
+                    <img src="{{site.url}}/{{ speaker[1].speaker-img }}" alt="Avatar" style="width:150px;height:150px;border-radius: 100%;">
+                    <a target="_blank" href="{{ speaker[1].linkedin }}"><h6 class="speaker-name"> {{ speaker[1].name }} </h6></a>
+                    <p> {{ speaker[1].affiliation }} </p>
                 </div>
                 </div>
             </div>

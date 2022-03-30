@@ -42,7 +42,7 @@ authors:
       name:           Hridoy Sankar Dutta
       site:           https://www.wowthemes.net
       avatar:         /assets/images/hridoy.png
-      bio:            "Research Assistant at University of Cambridge, PhD in Computer Science and Engineering at IIITD, "
+      bio:            "Research Associate, University of Cambridge"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
@@ -83,82 +83,98 @@ speakers:
       name:           Ankur Deka
       linkedin:       https://www.linkedin.com/in/ankur-deka/
       speaker-img:    /assets/images/ankur-1.jpeg
+      affiliation:    Research Engineer, Intel Labs
 
     homanga:
       name:           Homanga Bharadwaj
       linkedin:       https://www.linkedin.com/in/homanga/
       speaker-img:    /assets/images/homanga.png
+      affiliation:    PhD Scholar, CMU
 
     kartik:
       name:           Kartik Agarwal
       linkedin:       https://www.linkedin.com/in/kartikaggarwal98/
       speaker-img:    /assets/images/kartik.jpeg
+      affiliation:    NLP Masters student, UCSC
 
     debanga:
       name:           Debanga Raj Neog
       linkedin:       https://www.linkedin.com/in/debanga/
       speaker-img:    /assets/images/debanga.jpg
+      affiliation:    Assistant Professor, IITG
 
     purvi:
-      name:           Dr. Purvi Agarwal
+      name:           Purvi Agarwal
       linkedin:       https://www.linkedin.com/in/purvi-agrawal-20288725/
       speaker-img:    /assets/images/purvi.jpeg
+      affiliation:    Applied Researcher-II, Microsoft 
 
     nagaraj:
       name:           Nagaraj Adiga
       linkedin:       https://www.linkedin.com/in/nagaraj-adiga-7a67658/
       speaker-img:    /assets/images/nagaraj.jpeg
+      affiliation:    Senior Research Scientist, Zapr Media labs
 
     saurav:
       name:           Saurav Talukdar
       linkedin:       https://www.linkedin.com/in/stalukdar/
       speaker-img:    /assets/images/saurav.jpg
+      affiliation:    Senior Control System Engineer, Google
 
     santonu:
       name:           Santonu Goswami
       linkedin:       https://www.linkedin.com/in/santonugoswami
       speaker-img:    /assets/images/santonu.jpeg
+      affiliation:    Assoc. Professor, Azim Premji University
 
     biswadeep:
       name:           Biswadeep Khan
       linkedin:       https://www.linkedin.com/in/biswadeep-khan-442ba340
       speaker-img:    /assets/images/biswadeep_khan.jpg
+      affiliation:    PhD Scholar, HKUST
 
     nabarun:
       name:           Nabarun Goswami
       linkedin:       https://www.linkedin.com/in/nabarun-goswami-28728759/
       speaker-img:    assets/images/nabarun-01.jpeg
+      affiliation:    PhD Scholar, University of Tokyo
 
     banriskhem:
       name:           Banriskhem K. Khonglah
       linkedin:       https://www.linkedin.com/in/banriskhem-k-khonglah-60147589/
       speaker-img:    assets/images/Banriskhem.jpeg
+      affiliation:    Senior Researcher, Cerence Inc.
 
     debmalya:
       name:           Debmalya Chakrabarty
       linkedin:       https://www.linkedin.com/in/debmalya-chakrabarty-9a650528/
       speaker-img:    assets/images/debmalya-01.jpeg
+      affiliation:    Senior Applied Scientist, Amazon
 
-    # ravi:
-    #   name:           Ravi Shankar
-    #   linkedin:       https://www.linkedin.com/in/ravi-shankar-jhuece/
-    #   speaker-img:    assets/images/Ravi_Shankar.png
+    ravi:
+      name:           Ravi Shankar
+      linkedin:       https://www.linkedin.com/in/ravi-shankar-jhuece/
+      speaker-img:    assets/images/Ravi_Shankar.png
+      affiliation:    PhD Scholar, Johns Hopkins University
 
-    # devamanyu :
-    #   name:           Devamanyu Hazarika
-    #   linkedin:       https://www.linkedin.com/in/devamanyu/
-    #   speaker-img:    /assets/images/devamanyu.jpg
+    devamanyu :
+      name:           Devamanyu Hazarika
+      linkedin:       https://www.linkedin.com/in/devamanyu/
+      speaker-img:    /assets/images/devamanyu.jpg
+      affiliation:    Applied Scientist, Amazon Alexa AI
 
     bhaskar :
       name:           Bhaskar Deka
       linkedin:       https://www.linkedin.com/in/bhaskar-deka-62a4171/
       speaker-img:    /assets/images/bhaskardeka.jpeg
-
+      affiliation:   Senior Vice President, EdCast
 
     shakuntala :
-      name:           Dr. Shakuntala (Lata) Choudhury
+      name:           Shakuntala (Lata) Choudhury
       linkedin:       https://www.linkedin.com/in/statistician2choudhury/
       speaker-img:    /assets/images/shakuntala.jpeg
+      affiliation:    Senior Director, Agadia Systems Inc.
+
     # ayon :
     #   name:           Dr. Ayon Borthakur
     #   linkedin:       https://www.linkedin.com/in/ayonborthakur
