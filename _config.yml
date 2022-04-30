@@ -179,11 +179,15 @@ speakers:
       name:           Dr. Ayon Borthakur
       linkedin:       https://www.linkedin.com/in/ayonborthakur
       speaker-img:    /assets/images/ayon.jpeg
+      affiliation:    Senior Neuromorphic Engineer (Machine Learning), Innatera Nanosystems
+
 
     parthana :
       name:           Parthana Majumder
       linkedin:       https://www.linkedin.com/in/prarthana-majumdar-26681613/
       speaker-img:    /assets/images/parthana.jpg
+      affiliation:    Founder, Dzukou
+
 
 
 # Defaults
