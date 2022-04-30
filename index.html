@@ -39,9 +39,9 @@ description: "A community for AI enthusiast in Assam"
                     <h4>Latest Events</h4>
                     <hr>
                     <marquee direction="up" style="height: 100px;" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-                        <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/cm-vikram-43ba2629/">Dr. Vikram C. Mathad,</a> | 
-                        <b style="color: rgb(255, 88, 88); ">Topic: </b> "Machine learning for clinical speech processing " | 
-                        <b style="color: rgb(255, 88, 88); ">Date:</b> 12 March, 2022  | 5:00 PM (IST)
+                        <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://gauravkbaruah.github.io/">Dr. Gaurav Baruah,</a> | 
+                        <b style="color: rgb(255, 88, 88); ">Topic: </b> "Challenges in forecasting future biodiversity collapse in the face of climate change." | 
+                        <b style="color: rgb(255, 88, 88); ">Date:</b> 14th May, 2022  | 6:00 PM (IST)
                         <hr>
                         <!-- <b style="color: rgb(255, 88, 88); ">Upcoming Talk </b> by <a href="https://www.linkedin.com/in/ayonborthakur/">Dr. Ayon Borthakur</a> | 
                         <b style="color: rgb(255, 88, 88); ">Topic: </b> "Machine learning with spike (Tentative)" |  -->
@@ -200,27 +200,27 @@ description: "A community for AI enthusiast in Assam"
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
-    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 500px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+        <img class="w-100" src="{% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %}{{ latest_post.image | absolute_url }}{% endif %}" alt="{{ latest_post.title }}">
     </a>
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
-    <h2 class="h4 font-weight-bold">
-    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
-    </h2>
-    <p class="excerpt">
-        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
-    </p>
-    <div>
-        <small class="d-block text-muted">
-                <span class="catlist">
-                {% for category in latest_post.categories %}
-                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                {% endfor %}
-                </span>                   
-        </small>
-        <small class="text-muted">
-            Posted on {{ latest_post.date | date: '%b %d, %Y' }}
-        </small>
-    </div>
+        <h2 class="h4 font-weight-bold">
+        <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+        </h2>
+        <p class="excerpt">
+            {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+        </p>
+        <div>
+            <small class="d-block text-muted">
+                    <span class="catlist">
+                    {% for category in latest_post.categories %}
+                    <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                    {% endfor %}
+                    </span>                   
+            </small>
+            <small class="text-muted">
+                Posted on {{ latest_post.date | date: '%b %d, %Y' }}
+            </small>
+        </div>
     </div>
     </div>
     </div>
@@ -231,7 +231,7 @@ description: "A community for AI enthusiast in Assam"
         {%- assign second_post = site.posts[2] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
-                <div class="col-md-4">
+                <div class="col-md-6">
                 <a href="{{site.baseurl}}{{second_post.url}}">
                  <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
                 </a>
@@ -255,10 +255,10 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- third latest post -->
-        {%- assign third_post = site.posts[5] -%}        
+        {%- assign third_post = site.posts[3] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
-                <div class="col-md-4">
+                <div class="col-md-6">
                 <a href="{{site.baseurl}}{{third_post.url}}">
                  <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
                 </a>
@@ -282,10 +282,10 @@ description: "A community for AI enthusiast in Assam"
             </div>
         
         <!-- fourth latest post -->
-        {%- assign fourth_post = site.posts[3] -%}        
+        {%- assign fourth_post = site.posts[6] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
-                <div class="col-md-4">
+                <div class="col-md-6">
                 <a href="{{site.baseurl}}{{fourth_post.url}}">
                 <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
                 </a>
