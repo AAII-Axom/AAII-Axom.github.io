@@ -175,10 +175,15 @@ speakers:
       speaker-img:    /assets/images/shakuntala.jpeg
       affiliation:    Senior Director, Agadia Systems Inc.
 
-    # ayon :
-    #   name:           Dr. Ayon Borthakur
-    #   linkedin:       https://www.linkedin.com/in/ayonborthakur
-    #   speaker-img:    /assets/images/ayon.jpeg
+    ayon :
+      name:           Dr. Ayon Borthakur
+      linkedin:       https://www.linkedin.com/in/ayonborthakur
+      speaker-img:    /assets/images/ayon.jpeg
+
+    parthana :
+      name:           Parthana Majumder
+      linkedin:       https://www.linkedin.com/in/prarthana-majumdar-26681613/
+      speaker-img:    /assets/images/parthana.jpg
 
 
 # Defaults
