@@ -157,11 +157,11 @@ speakers:
       speaker-img:    assets/images/Ravi_Shankar.png
       affiliation:    PhD Scholar, Johns Hopkins University
 
-    devamanyu :
-      name:           Devamanyu Hazarika
-      linkedin:       https://www.linkedin.com/in/devamanyu/
-      speaker-img:    /assets/images/devamanyu.jpg
-      affiliation:    Applied Scientist, Amazon Alexa AI
+    # devamanyu :
+    #   name:           Devamanyu Hazarika
+    #   linkedin:       https://www.linkedin.com/in/devamanyu/
+    #   speaker-img:    /assets/images/devamanyu.jpg
+    #   affiliation:    Applied Scientist, Amazon Alexa AI
 
     bhaskar :
       name:           Bhaskar Deka
@@ -175,11 +175,11 @@ speakers:
       speaker-img:    /assets/images/shakuntala.jpeg
       affiliation:    Senior Director, Agadia Systems Inc.
 
-    ayon :
-      name:           Dr. Ayon Borthakur
-      linkedin:       https://www.linkedin.com/in/ayonborthakur
-      speaker-img:    /assets/images/ayon.jpeg
-      affiliation:    Senior Neuromorphic Engineer (Machine Learning), Innatera Nanosystems
+    # ayon :
+    #   name:           Dr. Ayon Borthakur
+    #   linkedin:       https://www.linkedin.com/in/ayonborthakur
+    #   speaker-img:    /assets/images/ayon.jpeg
+    #   affiliation:    Senior Neuromorphic Engineer (Machine Learning), Innatera Nanosystems
 
 
     parthana :
