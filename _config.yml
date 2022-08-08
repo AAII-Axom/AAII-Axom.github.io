@@ -203,6 +203,49 @@ intra-aaii:
       linkedin:       https://www.linkedin.com/in/kartikaggarwal98/
       speaker-img:    /assets/images/kartik.jpeg
       affiliation:    NLP Masters student, UCSC
+
+    sishir:
+      name:           Sishir Kalita
+      linkedin:       https://www.linkedin.com/in/sishirkalita
+      speaker-img:    /assets/images/sishir.jpg
+      affiliation:    Data Scientist at Armsoftech.air
+
+    hridoy:
+      name:           Hridoy Sankar Dutta
+      linkedin:       https://www.linkedin.com/in/hridoy-sankar-dutta-18448a63/
+      speaker-img:    /assets/images/hridoy.png
+      affiliation:    Research Associate, University of Cambridge
+
+    orchid:
+      name:           Orchid Chetia Phukan
+      linkedin:       https://www.linkedin.com/in/orchid-chetia-phukan-7ba816169
+      speaker-img:    /assets/images/orchid.jpeg
+      affiliation:    MTech Student, PES University, Bangalore
+
+    ramyanee:
+      name:           Ramyanee Kashyap
+      linkedin:       https://www.linkedin.com/in/ramyanee-kashyap
+      speaker-img:    /assets/images/ramyanee.jpeg
+      affiliation:    MTech Student, IIIT Delhi, Delhi
+
+    aniruddha:
+      name:           Aniruddha Mazumdar
+      linkedin:       https://www.linkedin.com/in/aniruddha-mazumdar-1aa2a5186
+      speaker-img:    /assets/images/aniruddha.jpeg
+      affiliation:    Data Scientist, ObaForta India
+
+    shibani:
+      name:           Shibani Das
+      linkedin:       https://www.linkedin.com/in/shibani-das-083852177
+      speaker-img:    /assets/images/shibani.jpeg
+      affiliation:    MS Student, IIT Indore
+
+    gayatri:
+      name:           Gayatri Sharma
+      linkedin:       https://www.linkedin.com/in/gayatri-sharma-1893111b2/
+      speaker-img:    /assets/images/gayatri.jpeg
+      affiliation:    Double majors undergraduate, IITM and AEC
+
 # Defaults
 defaults:
 
