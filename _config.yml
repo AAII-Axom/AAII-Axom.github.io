@@ -91,11 +91,7 @@ speakers:
       speaker-img:    /assets/images/homanga.png
       affiliation:    PhD Scholar, CMU
 
-    kartik:
-      name:           Kartik Agarwal
-      linkedin:       https://www.linkedin.com/in/kartikaggarwal98/
-      speaker-img:    /assets/images/kartik.jpeg
-      affiliation:    NLP Masters student, UCSC
+    
 
     debanga:
       name:           Debanga Raj Neog
@@ -175,12 +171,11 @@ speakers:
       speaker-img:    /assets/images/shakuntala.jpeg
       affiliation:    Senior Director, Agadia Systems Inc.
 
-    # ayon :
-    #   name:           Dr. Ayon Borthakur
-    #   linkedin:       https://www.linkedin.com/in/ayonborthakur
-    #   speaker-img:    /assets/images/ayon.jpeg
-    #   affiliation:    Senior Neuromorphic Engineer (Machine Learning), Innatera Nanosystems
-
+    vikram:
+      name:           CM Vikram
+      linkedin:       https://www.linkedin.com/in/cm-vikram-43ba2629
+      speaker-img:    /assets/images/vikram-cm.jpeg
+      affiliation:    Postdoctoral Researcher at Arizona State University 
 
     parthana :
       name:           Parthana Majumder
@@ -188,8 +183,26 @@ speakers:
       speaker-img:    /assets/images/parthana.jpg
       affiliation:    Founder, Dzukou
 
+    gaurav-baruah :
+      name:           Gaurav Baruah
+      linkedin:       https://www.linkedin.com/in/gaurav-baruah-87686a3b
+      speaker-img:    /assets/images/gaurav.jpg
+      affiliation:    Postdoctoral Scientist, Eawag Switzerland
+
+    deep-medhi :
+      name:           Deep Medhi
+      linkedin:       https://www.linkedin.com/in/deep-medhi-281963
+      speaker-img:    /assets/images/Deep_Medhi.jpg
+      affiliation:    Program Director, National Science Foundation
 
 
+
+intra-aaii:
+    kartik:
+      name:           Kartik Agarwal
+      linkedin:       https://www.linkedin.com/in/kartikaggarwal98/
+      speaker-img:    /assets/images/kartik.jpeg
+      affiliation:    NLP Masters student, UCSC
 # Defaults
 defaults:
 
