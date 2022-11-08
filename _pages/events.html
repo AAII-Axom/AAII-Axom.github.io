@@ -10,7 +10,7 @@ permalink: "/events.html"
             <h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
                 {% assign posts = site.posts | where:"author","sishir" %}
                 {% for post in posts %}
-                {% include main-loop-card.html %}
+                {% include main-loop-card-simplified.html %}
                 {% endfor %}
         </div>
     </div>
@@ -21,7 +21,7 @@ permalink: "/events.html"
         <div class="col-md-8">        
                 {% assign posts = site.posts | where:"author","sal" %}
                 {% for post in posts %}
-                {% include main-loop-card.html %}
+                {% include main-loop-card-simplified.html %}
                 {% endfor %}
         </div>
     </div>

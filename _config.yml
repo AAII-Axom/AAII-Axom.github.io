@@ -195,6 +195,18 @@ speakers:
       speaker-img:    /assets/images/Deep_Medhi.jpg
       affiliation:    Program Director, National Science Foundation
 
+    cong-zhang :
+      name:           Cong Zhang
+      linkedin:       https://www.linkedin.com/in/cong-zhang-oxford
+      speaker-img:    /assets/images/cong-zhang.jpg
+      affiliation:    Lecturer in Phonetics and Phonology, Newcastle University, UK.
+
+    rajarshi-sarma :
+      name:           Rajarshi Sarma
+      linkedin:       https://in.linkedin.com/in/rajarshisarma
+      speaker-img:    /assets/images/rajarshi-sarma.jpg
+      affiliation:    Program Head, NEEDP, IIM Calcutta Innovation Park
+
 
 
 intra-aaii:
