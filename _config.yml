@@ -207,6 +207,12 @@ speakers:
       speaker-img:    /assets/images/rajarshi-sarma.jpg
       affiliation:    Program Head, NEEDP, IIM Calcutta Innovation Park
 
+    neeraj-sharma :
+      name:           Neeraj Sharma
+      linkedin:       https://www.linkedin.com/in/neeraj-sharma-5360ab196/
+      speaker-img:    /assets/images/neeraj-sharma.jpg
+      affiliation:    Neeraj Sharma, Assistant Professor, Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati
+
 
 
 intra-aaii:
