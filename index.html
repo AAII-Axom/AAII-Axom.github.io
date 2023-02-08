@@ -7,10 +7,8 @@ description: "A community for AI enthusiast in Assam"
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div class="container" style="margin-top: 60px;">
-
-    
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
+<div class="container" style="margin-top: 60px;">    
     
     {% if page.url == "/" %}
   
@@ -97,6 +95,7 @@ description: "A community for AI enthusiast in Assam"
     <img class="w-100" src="{% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %}{{ latest_post.image | absolute_url }}{% endif %}" alt="{{ latest_post.title }}">
 <!--     <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 500px;    background-size: cover;    background-repeat: no-repeat;"></div>    -->  
     </a>
+
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
     <h2 class="h4 font-weight-bold">
     <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
@@ -104,7 +103,20 @@ description: "A community for AI enthusiast in Assam"
     <p class="excerpt">
         {{ latest_post.subtitle | strip_html | strip_newlines | truncate: 400 }}
     </p>
+    <add-to-calendar-button
+      name= "{{ latest_post.title }}"
+      description="Title: {{ latest_post.title }}<br/>Speaker: {{ latest_post.subtitle | strip_html | strip_newlines | truncate: 400 }}<br/>YouTube link: {{ latest_post.youtube }}"
+      startDate="{{ latest_post.start_date }}"
+      endDate="{{ latest_post.start_date }}"
+      startTime="{{ latest_post.start_time }}"
+      endTime="{{ latest_post.start_time }}"
+      location="{{ latest_post.youtube }}"
+      options="['Apple','Google','iCal','Microsoft365','Outlook.com','Yahoo']"
+      timeZone="Asia/Kolkata"
+    >
+    </add-to-calendar-button>
     <div>
+
         <small class="d-block text-muted">
                 <span class="catlist">
                 {% for category in latest_post.categories %}
