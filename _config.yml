@@ -213,7 +213,29 @@ speakers:
       speaker-img:    /assets/images/neeraj-sharma.jpg
       affiliation:    Neeraj Sharma, Assistant Professor, Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati
 
+    anirudh-gupta:      
+      name:           Anirudh Gupta
+      linkedin:       https://www.linkedin.com/in/anirudh-gupta-a5b26622
+      speaker-img:    /assets/images/anirudh-gupta.jpeg
+      affiliation:    Senior Research Engineer, Gan.ai, Noida
 
+    ranjay-krishna:      
+      name:           Ranjay Krishna
+      linkedin:       https://www.linkedin.com/in/ranjay-krishna-1a344444
+      speaker-img:    /assets/images/ranjay_krishna.jpeg
+      affiliation:    Assistant Professor, Paul G. Allen School of Computer Science & Engineering, University of Washington
+
+    ayon-borthakur:      
+      name:           Ayon Borthakur
+      linkedin:       https://www.linkedin.com/in/ayonborthakur
+      speaker-img:    /assets/images/ayon_borthakur.webp
+      affiliation:    Assistant Professor, Department of Artificial Intelligence at IIT Hyderabad
+
+    sanghamitra-goswami:      
+      name:           Sanghamitra Goswami
+      linkedin:       https://www.linkedin.com/in/sanghamitra-goswami-b8a8865
+      speaker-img:    /assets/images/sanghamitragoswami.jpeg
+      affiliation:    Blue Origin, California, USA
 
 intra-aaii:
     kartik:
@@ -263,6 +285,24 @@ intra-aaii:
       linkedin:       https://www.linkedin.com/in/gayatri-sharma-1893111b2/
       speaker-img:    /assets/images/gayatri.jpeg
       affiliation:    Double majors undergraduate, IITM and AEC
+
+    bijit:
+      name:           Bijit Deka
+      linkedin:       https://www.linkedin.com/in/bijit-deka
+      speaker-img:    /assets/images/bijit_deka.jpeg
+      affiliation:    Data Scientist, StepFunction
+
+    ayushman:
+      name:           Ayushman Buragohain
+      linkedin:       https://www.linkedin.com/in/ayushman-buragohain-2145a7184/
+      speaker-img:    /assets/images/ayushman_buragohain.jpeg
+      affiliation:    AI Engineer, NinjaStudy
+
+    indrajit:
+      name:           Indrajit Kalita
+      linkedin:       https://www.linkedin.com/in/kalita-indrajit/
+      speaker-img:    /assets/images/indrajit.jpeg
+      affiliation:    Research Associate, CYENS Centre of Excellence, Greece
 
 # Defaults
 defaults:

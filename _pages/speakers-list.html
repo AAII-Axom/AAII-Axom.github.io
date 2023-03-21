@@ -33,7 +33,6 @@ permalink: "/speakers-list.html"
                 </div>
                 </div>
             </div>
-
         {% endfor %} 
         </div><br>
     <h4 class="font-weight-bold spanborder"><span>Intra-AAII Sessions</span></h4>
@@ -44,7 +43,8 @@ permalink: "/speakers-list.html"
                 <div class="flip-card-front">
                     <img src="{{site.url}}/{{ speaker[1].speaker-img }}" alt="Avatar" style="width:150px;height:150px;border-radius: 100%;">
                     <a target="_blank" href="{{ speaker[1].linkedin }}"><h6 class="speaker-name"> {{ speaker[1].name }} </h6></a>
-                    <p> {{ speaker[1].affiliation }} </p>
+                    <p> {{ speaker[1].affiliation }} <br/></p>
+
                 </div>
                 </div>
             </div>
