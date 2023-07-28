@@ -33,7 +33,7 @@ authors:
       avatar:         /assets/images/parishmita.jpeg
       bio:            "Asst. Prof (ECE), Dibrugarh University"
       email:          parismita@dibru.ac.in
-      domain:         Deep Learning (Image/Natural Language Processing)
+      domain:         Speech technology
 
     kulendu:
       name:           Kulendu Kashyap Chakraborty
@@ -88,8 +88,8 @@ authors:
       weblink:       https://www.linkedin.com/in/abhigyan-ganguly-70b590160/
       avatar:         /assets/images/abhigyan.jpg
       bio:            "Software Engineer, Optum UHG"
-      email:          ramyanee.98@gmail.com
-      domain:         Deep Learning (Image/Natural Language Processing)
+      email:          abhigyan.nits@gmail.com
+      domain:         Deep Learning, Natural Language Processing
 
     orchid:
       name:          Orchid Chetia Phukan
@@ -113,7 +113,7 @@ authors:
       avatar:         /assets/images/shashanka.jpg
       bio:            "Software Engineer, Capgemini"
       email:          shashankahandique@gmail.com
-      domain:         
+      domain:         Graphic Designing
 
     shibani:
       name:          Shibani Das
@@ -121,7 +121,7 @@ authors:
       avatar:         /assets/images/shibani.jpg
       bio:            "PhD student, Louisiana State University, USA"
       email:          shibanidas796@gmail.com
-      domain:         Machine Learning, Natural Language Processing, Semantic IoT
+      domain:         NLP, Knowledge Representation, Semantic Web and Reasoning
 
     indrajit:
       name:          Indrajit Kalita
@@ -141,7 +141,7 @@ authors:
 
     bishal:
       name:          Bishal Roy
-      weblink:       https://www.linkedin.com/in/ayushman-buragohain-2145a7184/
+      weblink:       https://www.linkedin.com/in/bishalr0y
       avatar:         /assets/images/bishal.jpg
       bio:            "Software Developer, Nav Prayukti Pvt Ltd."
       email:          bishalroy895@gmail.com
@@ -161,7 +161,7 @@ authors:
       avatar:         /assets/images/mrinmoy.jpg
       bio:            "Postdoctoral Researcher, IDIAP Research Institute, Switzerland"
       email:          mrin.mb@gmail.com
-      domain:         AI/ML, Speech/Audio Processing
+      domain:         AI, Machine Learning, Speech/Audio Processing
 
     angana:
       name:          Angana Borah
@@ -245,7 +245,7 @@ speakers:
     biswadeep:
       name:           Biswadeep Khan
       linkedin:       https://www.linkedin.com/in/biswadeep-khan-442ba340
-      speaker-img:    /assets/images/biswadeep_khan.jpg
+      speaker-img:    /assets/images/biswadeep_khan.jpeg
       affiliation:    PhD Scholar, HKUST
 
     nabarun:
@@ -384,7 +384,7 @@ intra-aaii:
     ramyanee:
       name:           Ramyanee Kashyap
       linkedin:       https://www.linkedin.com/in/ramyanee-kashyap
-      speaker-img:    /assets/images/ramyanee.jpeg
+      speaker-img:    /assets/images/ramyanee.jpg
       affiliation:    Software Engineer, Qualcomm
 
     aniruddha:
@@ -414,7 +414,7 @@ intra-aaii:
     ayushman:
       name:           Ayushman Buragohain
       linkedin:       https://www.linkedin.com/in/ayushman-buragohain-2145a7184/
-      speaker-img:    /assets/images/ayushman_buragohain.jpeg
+      speaker-img:    /assets/images/ayushman.jpg
       affiliation:    Research Engineer, Dashtoon
 
     indrajit:
