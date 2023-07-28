@@ -5,9 +5,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon-png.png'
 baseurl: ''
 url : "https://aaii-axom.github.io"
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+email: 'aaiiaxomi@gmail.com'
 
 include: ["_pages"]
 permalink: /:title/
@@ -23,60 +21,160 @@ authors:
 
     sishir:
       name:           Sishir Kalita
-      site:           https://www.wowthemes.net
+      weblink:       https://www.linkedin.com/in/sishir-kalita-3a006120/
       avatar:         /assets/images/sishir.jpg
-      bio:            "Data Scientist at Armsoftech.air."
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Senior Data Scientist / Speech Team Lead, Armsoftech.air"
+      email:          sisiitg@gmail.com
 
     parismita:
       name:           Parismita Gogoi
-      site:           https://www.wowthemes.net
+      weblink:       https://www.linkedin.com/in/parismita-gogoi-4a264924
       avatar:         /assets/images/parishmita.jpeg
-      bio:            "Asst. Prof in the Dept. of ECE at Dibrugarh University"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-
-    hridoy:
-      name:           Hridoy Sankar Dutta
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/hridoy.png
-      bio:            "Research Associate, University of Cambridge"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Asst. Prof (ECE), Dibrugarh University"
+      email:          parismita@dibru.ac.in
 
     kulendu:
       name:           Kulendu Kashyap Chakraborty
-      site:           https://www.wowthemes.net
       avatar:         /assets/images/kulendu.png
-      bio:            "Second year student in the Dept. of Computer Science and Engineering"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Student, GIMT Guwahati"
+      email:          imkulendu@gmail.com
+      weblink:       https://kulendu.github.io
       
-    subhrat:
-      name:           Subhrat Kishore Dutta
-      site:           https://www.wowthemes.net
+    subrat:
+      name:           Subrat Kishore Dutta
+      weblink:       https://www.linkedin.com/in/subrat-kishore-dutta-70a9a316b/
       avatar:         /assets/images/subrat.png
-      bio:            "Final year student in the Dept. of Computer Science and Engineering at Assam Engineering College"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "M.Sc. in Computer Science, Saarland University, Germany"
+      email:          subratkishoredutta1234@gmail.com
 
-    samir:
-      name:           Samir Boro
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Final year student in the Dept. of Computer Science and Engineering at IIITG"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    azhar:
+      name:           Azharuddin Laskar
+      avatar:         /assets/images/azhar.jpg
+      bio:            "Senior Data Scientist, Armsoftech.air"
+      email:          azharlaskar@gmail.com
+      weblink:       azharlaskar.github.io
 
     gayatri:
       name:           Gayatri Sharma
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Second year student in the Dept. of Mechanical Engineering at Assam Engineering College"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      weblink:        https://www.linkedin.com/in/gayatri-sharma-1893111b2/
+      avatar:         /assets/images/gayatri.jpg
+      bio:            "Double majors undergraduate, IITM and Assam Engineering College"
+      email:          gayatrisharma6@yahoo.com
+
+    hridoy:
+      name:           Hridoy Sankar Dutta
+      weblink:       https://hridaydutta123.github.io/
+      avatar:         /assets/images/hridoy.png
+      bio:            "Research Associate, University of Cambridge, UK"
+      email:          hridaydutta123@gmail.com
+
+    ramyanee:
+      name:          Ramyanee Kashyap
+      weblink:       https://www.linkedin.com/in/ramyanee-kashyap
+      avatar:         /assets/images/ramyanee.jpg
+      bio:            "Software Engineer, Qualcomm"
+      email:          ramyanee.98@gmail.com
+
+    abhigyan:
+      name:          Abhigyan Ganguly
+      weblink:       https://www.linkedin.com/in/abhigyan-ganguly-70b590160/
+      avatar:         /assets/images/abhigyan.jpg
+      bio:            "Software Engineer, Optum UHG"
+      email:          ramyanee.98@gmail.com
+
+    orchid:
+      name:          Orchid Chetia Phukan
+      weblink:       https://www.linkedin.com/in/orchid-chetia-phukan-7ba816169
+      avatar:         /assets/images/orchid.jpg
+      bio:            "PhD student, Indraprastha Institute of Information Technology Delhi (IIITD)"
+      email:          orchidchetiaphukan1@gmail.com
+
+    pamir:
+      name:          Pamir Gogoi
+      weblink:       https://www.linkedin.com/in/pamirgogoi
+      avatar:         /assets/images/pamir.jpg
+      bio:            "Research Intern, Microsoft Research India"
+      email:          pamir.gogoi11@gmail.com
+
+    shashanka:
+      name:          Shashanka Handique
+      weblink:       https://www.linkedin.com/in/shashanka-handique-248055184/
+      avatar:         /assets/images/shashanka.jpg
+      bio:            "Software Engineer, Capgemini"
+      email:          shashankahandique@gmail.com
+
+    shibani:
+      name:          Shibani Das
+      weblink:       https://www.linkedin.com/in/shibani-das-083852177
+      avatar:         /assets/images/shibani.jpg
+      bio:            "PhD student, Louisiana State University, USA"
+      email:          shibanidas796@gmail.com
+
+    indrajit:
+      name:          Indrajit Kalita
+      weblink:       https://www.linkedin.com/in/kalita-indrajit
+      avatar:         /assets/images/indrajit.jpeg
+      bio:            "Postdoctoral Researcher, Boston University, USA"
+      email:          indrakalita09@gmail.com
+
+    ayushman:
+      name:          Ayushman Buragohain
+      weblink:       https://www.linkedin.com/in/ayushman-buragohain-2145a7184/
+      avatar:         /assets/images/ayushman.jpg
+      bio:            "Research Engineer, Dashtoon"
+      email:          aburagohain160@gmail.com
+
+    bishal:
+      name:          Bishal Roy
+      weblink:       https://www.linkedin.com/in/ayushman-buragohain-2145a7184/
+      avatar:         /assets/images/bishal.jpg
+      bio:            "Software Developer, Nav Prayukti Pvt Ltd."
+      email:          bishalroy895@gmail.com
+
+    nayan:
+      name:          Nayan Moni Baishya
+      weblink:       https://www.linkedin.com/in/nayan-moni-baishya-phd
+      avatar:         /assets/images/nayan.jpg
+      bio:            "PhD student, IIT Guwahati"
+      email:          nmb94@iitg.ac.in
+
+    mrinmoy:
+      name:          Mrinmoy Bhattacharjee
+      weblink:       https://mrinmoy-iitg.github.io/Webpage/index.html
+      avatar:         /assets/images/mrinmoy.jpg
+      bio:            "Postdoctoral Researcher, IDIAP Research Institute, Switzerland"
+      email:          mrin.mb@gmail.com
+
+    angana:
+      name:          Angana Borah
+      weblink:       https:/www.linkedin.com/in/anganaborah
+      avatar:         /assets/images/angana.png
+      bio:            "Masters student, Georgia Institute of Technology, USA"
+      email:          anganaborah10@gmail.com
+
+    punyabrat:
+      name:          Punyabrat Kalwar
+      weblink:       https://www.linkedin.com/in/kalwar/
+      avatar:         /assets/images/punyabrat.jpg
+      bio:            "Masters student, IIT Kanpur"
+      email:          kalwarpunya@gmail.com
+
+    aniruddha_bora:
+      name:          Aniruddha Bora
+      weblink:       https://www.linkedin.com/mwlite/in/aniruddha-bora-49b73a80
+      avatar:         /assets/images/aniruddha_bora.jpg
+      bio:            "Postdoctoral Research Associate, Brown University, USA"
+      email:          aniruddhabora@gmail.com
+
+    gagan:
+      name:          Gagan Gayari
+      weblink:       https://www.linkedin.com/in/gagangayari
+      avatar:         /assets/images/gagan.jpg
+      bio:            "Specialist Programmer (AI), Infosys Bangalore"
+      email:          gagangayari@gmail.com
+
+
+    
 
 speakers:
     ankur:
@@ -248,7 +346,7 @@ intra-aaii:
       name:           Sishir Kalita
       linkedin:       https://www.linkedin.com/in/sishirkalita
       speaker-img:    /assets/images/sishir.jpg
-      affiliation:    Data Scientist at Armsoftech.air
+      affiliation:    Senior Data Scientist / Speech Team Lead, Armsoftech.air
 
     hridoy:
       name:           Hridoy Sankar Dutta
@@ -260,13 +358,13 @@ intra-aaii:
       name:           Orchid Chetia Phukan
       linkedin:       https://www.linkedin.com/in/orchid-chetia-phukan-7ba816169
       speaker-img:    /assets/images/orchid.jpeg
-      affiliation:    MTech Student, PES University, Bangalore
+      affiliation:    PhD student, Indraprastha Institute of Information Technology Delhi
 
     ramyanee:
       name:           Ramyanee Kashyap
       linkedin:       https://www.linkedin.com/in/ramyanee-kashyap
       speaker-img:    /assets/images/ramyanee.jpeg
-      affiliation:    MTech Student, IIIT Delhi, Delhi
+      affiliation:    Software Engineer, Qualcomm
 
     aniruddha:
       name:           Aniruddha Mazumdar
@@ -278,12 +376,12 @@ intra-aaii:
       name:           Shibani Das
       linkedin:       https://www.linkedin.com/in/shibani-das-083852177
       speaker-img:    /assets/images/shibani.jpeg
-      affiliation:    MS Student, IIT Indore
+      affiliation:    PhD student, Louisiana State University, USA
 
     gayatri:
       name:           Gayatri Sharma
       linkedin:       https://www.linkedin.com/in/gayatri-sharma-1893111b2/
-      speaker-img:    /assets/images/gayatri.jpeg
+      speaker-img:    /assets/images/gayatri.jpg
       affiliation:    Double majors undergraduate, IITM and AEC
 
     bijit:
@@ -296,13 +394,13 @@ intra-aaii:
       name:           Ayushman Buragohain
       linkedin:       https://www.linkedin.com/in/ayushman-buragohain-2145a7184/
       speaker-img:    /assets/images/ayushman_buragohain.jpeg
-      affiliation:    AI Engineer, NinjaStudy
+      affiliation:    Research Engineer, Dashtoon
 
     indrajit:
       name:           Indrajit Kalita
       linkedin:       https://www.linkedin.com/in/kalita-indrajit/
       speaker-img:    /assets/images/indrajit.jpeg
-      affiliation:    Research Associate, CYENS Centre of Excellence, Greece
+      affiliation:    Postdoctoral Researcher, Boston University, USA
 
 # Defaults
 defaults:
