@@ -25,6 +25,7 @@ authors:
       avatar:         /assets/images/sishir.jpg
       bio:            "Senior Data Scientist / Speech Team Lead, Armsoftech.air"
       email:          sisiitg@gmail.com
+      domain:         Speech technology, Natural Language Processing
 
     parismita:
       name:           Parismita Gogoi
@@ -32,20 +33,23 @@ authors:
       avatar:         /assets/images/parishmita.jpeg
       bio:            "Asst. Prof (ECE), Dibrugarh University"
       email:          parismita@dibru.ac.in
+      domain:         Deep Learning (Image/Natural Language Processing)
 
     kulendu:
       name:           Kulendu Kashyap Chakraborty
       avatar:         /assets/images/kulendu.png
       bio:            "Student, GIMT Guwahati"
       email:          imkulendu@gmail.com
-      weblink:       https://kulendu.github.io
-      
+      weblink:        https://kulendu.github.io
+      domain:         Deep Learning, Computer Vision, Natural Language Processing
+
     subrat:
       name:           Subrat Kishore Dutta
       weblink:       https://www.linkedin.com/in/subrat-kishore-dutta-70a9a316b/
       avatar:         /assets/images/subrat.png
       bio:            "M.Sc. in Computer Science, Saarland University, Germany"
       email:          subratkishoredutta1234@gmail.com
+      domain:         Natural Language Processing, Computer Vision, Data Visualization
 
     azhar:
       name:           Azharuddin Laskar
@@ -53,6 +57,7 @@ authors:
       bio:            "Senior Data Scientist, Armsoftech.air"
       email:          azharlaskar@gmail.com
       weblink:       azharlaskar.github.io
+      domain:         Deep Learning Architecture, Speech Processing
 
     gayatri:
       name:           Gayatri Sharma
@@ -60,6 +65,7 @@ authors:
       avatar:         /assets/images/gayatri.jpg
       bio:            "Double majors undergraduate, IITM and Assam Engineering College"
       email:          gayatrisharma6@yahoo.com
+      domain:         Data Science, Natural Language Processing, Computer Vision 
 
     hridoy:
       name:           Hridoy Sankar Dutta
@@ -67,6 +73,7 @@ authors:
       avatar:         /assets/images/hridoy.png
       bio:            "Research Associate, University of Cambridge, UK"
       email:          hridaydutta123@gmail.com
+      domain:         Data-driven Cybersecurity, Social Network Analysis
 
     ramyanee:
       name:          Ramyanee Kashyap
@@ -74,6 +81,7 @@ authors:
       avatar:         /assets/images/ramyanee.jpg
       bio:            "Software Engineer, Qualcomm"
       email:          ramyanee.98@gmail.com
+      domain:         Deep Learning
 
     abhigyan:
       name:          Abhigyan Ganguly
@@ -81,6 +89,7 @@ authors:
       avatar:         /assets/images/abhigyan.jpg
       bio:            "Software Engineer, Optum UHG"
       email:          ramyanee.98@gmail.com
+      domain:         Deep Learning (Image/Natural Language Processing)
 
     orchid:
       name:          Orchid Chetia Phukan
@@ -88,6 +97,7 @@ authors:
       avatar:         /assets/images/orchid.jpg
       bio:            "PhD student, Indraprastha Institute of Information Technology Delhi (IIITD)"
       email:          orchidchetiaphukan1@gmail.com
+      domain:         Deep Learning, Computer Vision, Multimodal Machine Learning
 
     pamir:
       name:          Pamir Gogoi
@@ -95,6 +105,7 @@ authors:
       avatar:         /assets/images/pamir.jpg
       bio:            "Research Intern, Microsoft Research India"
       email:          pamir.gogoi11@gmail.com
+      domain:         Speech, Natural Language Processing
 
     shashanka:
       name:          Shashanka Handique
@@ -102,6 +113,7 @@ authors:
       avatar:         /assets/images/shashanka.jpg
       bio:            "Software Engineer, Capgemini"
       email:          shashankahandique@gmail.com
+      domain:         
 
     shibani:
       name:          Shibani Das
@@ -109,6 +121,7 @@ authors:
       avatar:         /assets/images/shibani.jpg
       bio:            "PhD student, Louisiana State University, USA"
       email:          shibanidas796@gmail.com
+      domain:         Machine Learning, Natural Language Processing, Semantic IoT
 
     indrajit:
       name:          Indrajit Kalita
@@ -116,6 +129,7 @@ authors:
       avatar:         /assets/images/indrajit.jpeg
       bio:            "Postdoctoral Researcher, Boston University, USA"
       email:          indrakalita09@gmail.com
+      domain:         Deep Learning for Remotely Sensed Images
 
     ayushman:
       name:          Ayushman Buragohain
@@ -123,6 +137,7 @@ authors:
       avatar:         /assets/images/ayushman.jpg
       bio:            "Research Engineer, Dashtoon"
       email:          aburagohain160@gmail.com
+      domain:         Deep Learning, Computer Vision, Natural Language Processing
 
     bishal:
       name:          Bishal Roy
@@ -130,6 +145,7 @@ authors:
       avatar:         /assets/images/bishal.jpg
       bio:            "Software Developer, Nav Prayukti Pvt Ltd."
       email:          bishalroy895@gmail.com
+      domain:         DevOps
 
     nayan:
       name:          Nayan Moni Baishya
@@ -137,6 +153,7 @@ authors:
       avatar:         /assets/images/nayan.jpg
       bio:            "PhD student, IIT Guwahati"
       email:          nmb94@iitg.ac.in
+      domain:         Image Forensics, Computer Vision, Deep Learning Security
 
     mrinmoy:
       name:          Mrinmoy Bhattacharjee
@@ -144,6 +161,7 @@ authors:
       avatar:         /assets/images/mrinmoy.jpg
       bio:            "Postdoctoral Researcher, IDIAP Research Institute, Switzerland"
       email:          mrin.mb@gmail.com
+      domain:         AI/ML, Speech/Audio Processing
 
     angana:
       name:          Angana Borah
@@ -151,6 +169,7 @@ authors:
       avatar:         /assets/images/angana.png
       bio:            "Masters student, Georgia Institute of Technology, USA"
       email:          anganaborah10@gmail.com
+      domain:         Natural Language Processing
 
     punyabrat:
       name:          Punyabrat Kalwar
@@ -158,6 +177,7 @@ authors:
       avatar:         /assets/images/punyabrat.jpg
       bio:            "Masters student, IIT Kanpur"
       email:          kalwarpunya@gmail.com
+      domain:         Deep Learning, Natural Language Processing
 
     aniruddha_bora:
       name:          Aniruddha Bora
@@ -165,6 +185,7 @@ authors:
       avatar:         /assets/images/aniruddha_bora.jpg
       bio:            "Postdoctoral Research Associate, Brown University, USA"
       email:          aniruddhabora@gmail.com
+      domain:         Scientific Machine Learning
 
     gagan:
       name:          Gagan Gayari
@@ -172,7 +193,7 @@ authors:
       avatar:         /assets/images/gagan.jpg
       bio:            "Specialist Programmer (AI), Infosys Bangalore"
       email:          gagangayari@gmail.com
-
+      domain:         Natural Language Processing
 
     
 
