@@ -167,7 +167,7 @@ authors:
       name:          Angana Borah
       weblink:       https:/www.linkedin.com/in/anganaborah
       avatar:         /assets/images/angana.png
-      bio:            "Masters student, Georgia Institute of Technology, USA"
+      bio:            "PhD student, University of Michigan, Ann Arbor, USA"
       email:          anganaborah10@gmail.com
       domain:         Natural Language Processing
 
@@ -195,6 +195,13 @@ authors:
       email:          gagangayari@gmail.com
       domain:         Natural Language Processing
 
+    bijit:
+      name:           Bijit Deka
+      linkedin:       https://www.linkedin.com/in/bijit-deka
+      avatar:    /assets/images/bijit_deka.jpg
+      affiliation:    Senior Data Scientist, StepFunction
+      email:          bijitdeka23@gmail.com
+      domain:         Time Series Analysis, Interpretable ML, Causal Analysis, Generative AI
     
 
 speakers:
@@ -408,8 +415,8 @@ intra-aaii:
     bijit:
       name:           Bijit Deka
       linkedin:       https://www.linkedin.com/in/bijit-deka
-      speaker-img:    /assets/images/bijit_deka.jpeg
-      affiliation:    Data Scientist, StepFunction
+      speaker-img:    /assets/images/bijit_deka.jpg
+      affiliation:    Senior Data Scientist, StepFunction
 
     ayushman:
       name:           Ayushman Buragohain
