@@ -8,27 +8,27 @@ image: assets/images/homanga.png
 
 # AAII Technical Lecture Series (ATLS-6)
 
->In this session, Homanga talked about different SOTA approaches in Robot Learning. He also shared his experiences gained during his internship in world-class AI labs.
+#### Abstract
+In this session, Homanga talked about different SOTA approaches in Robot Learning. He also shared his experiences gained during his internship in world-class AI labs.
 
->In this talk, Homanga discussed the setup, formulation, and current approaches in robot learning - training physical and embodied robots to perform useful tasks by learning from data. He drove deep into some of the machine learning techniques that are applicable to this setting, and focus in particular on reinforcement learning which is a general paradigm for solving sequential decision-making problems. He alos talked a bit about the main challenges in robot learning: that of safety and sample efficiency and discuss some techniques that aim to mitigate these.
+In this talk, Homanga discussed the setup, formulation, and current approaches in robot learning - training physical and embodied robots to perform useful tasks by learning from data. He drove deep into some of the machine learning techniques that are applicable to this setting, and focus in particular on reinforcement learning which is a general paradigm for solving sequential decision-making problems. He alos talked a bit about the main challenges in robot learning: that of safety and sample efficiency and discuss some techniques that aim to mitigate these.
 
 Related links:
-- Youtube Link of the talk: [![ATLS-6]()](https://www.youtube.com/watch?v=L7cZIwLQZoE)
-- [![Presentation slides]()](https://docs.google.com/presentation/d/1NMK738-p7mUFjxAwf8SgJk_4HQNWfc0VXRiRQoeVSjs/mobilepresent#slide=id.gcc054f0635_0_11) 
-- [![ATLS-6 Promo]()](https://www.youtube.com/watch?v=xOrwjrFz2nQ)
+- [Presentation slides](https://docs.google.com/presentation/d/1NMK738-p7mUFjxAwf8SgJk_4HQNWfc0VXRiRQoeVSjs/mobilepresent#slide=id.gcc054f0635_0_11) 
+
 - Books:
-    - [![Reinforcement Learning: An Introduction]()](http://incompleteideas.net/book/RLbook2020.pdf)
+    - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/RLbook2020.pdf)
 - Courses
-    - ULC: [![Excellent Blog Post]()](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html)
-    - Deep Mind: [![Introdutio to RL]()](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
-    - Berkeley CA: [![Deep RL Bootcamp]()](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+    - ULC: [Excellent Blog Post](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html)
+    - Deep Mind: [Introdutio to RL](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
+    - Berkeley CA: [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
 #### Speaker
 Homanga is a Graduate Student Researcher in the Department of Computer Science at the University of Toronto and collaborating with UC Berkeley. He is also a student researcher at the Vector Institute. He is also currently a research scientist intern at Nvidia Research with the AI Algorithms team. Previously, he worked under the guidance of Yoshua Bengio and Liam Paull at Mila, Montreal during the summer of 2018. His work at Mila focused on the problem of sim-to-real transfer of deep learning based planning algorithms in robotic navigation. Prior to this, he also did a winter internship at NUS, Singapore in Brian Lim's lab. His area of research includes Reinforcement Learning, Deep Learning, Robotics, and HCI. 
-- [![Site]()](https://homangab.github.io/)
-- [![LinkedIn]()](https://www.linkedin.com/in/homanga/)
-- [![Google Scholar]()](https://scholar.google.ca/citations?user=wwW4HRQAAAAJ&hl=en)
-- [![GitHub]()](https://github.com/homangab/)
+- [Site](https://homangab.github.io/)
+- [LinkedIn](https://www.linkedin.com/in/homanga/)
+- [Google Scholar](https://scholar.google.ca/citations?user=wwW4HRQAAAAJ&hl=en)
+- [GitHub](https://github.com/homangab/)
 
 ```
 Speaker: Homanga Bharadhwaj, Btech (IITK), Graduate Student Researcher (University of Toronto), Research Scientist Intern at NVIDIA Research
@@ -37,4 +37,4 @@ Date: 03 April 2021
 Time: 8:30 PM (IST)
 ```
 
-<iframe width="720" height="415" src="https://www.youtube.com/watch?v=s-flHRDVVj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="515" src="https://www.youtube.com/embed/xOrwjrFz2nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

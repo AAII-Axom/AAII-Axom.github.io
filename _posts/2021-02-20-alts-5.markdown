@@ -8,7 +8,8 @@ image: assets/images/ankur.png
 
 # AAII Technical Lecture Series (ATLS-5)
 
->Several real-world problems require an agent (could be a human or a robot) to take sequential actions - playing games, walking, cooking, the list goes on. It is hard to hand-code these actions in many scenarios. RL is a branch of Machine Learning that enables an agent to excel at a sequential action task through practice, trial and error, and a reward/punishment signal. Imagine how you learned skills in the real world through trial and error and practice. 
+#### Abstract
+Several real-world problems require an agent (could be a human or a robot) to take sequential actions - playing games, walking, cooking, the list goes on. It is hard to hand-code these actions in many scenarios. RL is a branch of Machine Learning that enables an agent to excel at a sequential action task through practice, trial and error, and a reward/punishment signal. Imagine how you learned skills in the real world through trial and error and practice. 
 
 In this session, Ankur Deka gave a brief overview of RL and Multi-Agent RL. And also, he talked about how you can prepare yourself for MS in the USA.
 
@@ -52,4 +53,4 @@ Date: 20 February 2021
 Time: 10 AM (IST)
 ```
 
-<iframe width="720" height="415" src="https://www.youtube.com/embed/L7cZIwLQZoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="515" src="https://www.youtube.com/embed/L7cZIwLQZoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

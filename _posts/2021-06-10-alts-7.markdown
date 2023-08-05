@@ -8,17 +8,17 @@ image: assets/images/purvi.jpeg
 
 # AAII Technical Lecture Series (ATLS-7)
 
->Representation learning is a branch of machine learning consisting of techniques that are capable of automatically discovering meaning representations from raw data for efficient information extraction. This talk will discuss about speech representations - what are those, why are they important to deep learning, how can we make representations and neural models interpretable and improve their performances.
+#### Abstract
+Representation learning is a branch of machine learning consisting of techniques that are capable of automatically discovering meaning representations from raw data for efficient information extraction. This talk will discuss about speech representations - what are those, why are they important to deep learning, how can we make representations and neural models interpretable and improve their performances.
 
 Related links:
-- Youtube Link of the talk: [![ATLS-7]()](https://www.youtube.com/watch?v=9qL63cYNz8Y)
-- [![Presentation slides]()](https://docs.google.com/presentation/d/1NMK738-p7mUFjxAwf8SgJk_4HQNWfc0VXRiRQoeVSjs/mobilepresent#slide=id.gcc054f0635_0_11)
+- [Presentation slides](https://docs.google.com/presentation/d/1NMK738-p7mUFjxAwf8SgJk_4HQNWfc0VXRiRQoeVSjs/mobilepresent#slide=id.gcc054f0635_0_11)
 
 #### Speaker
 Dr. Purvi Agrawal is an Applied Researcher-II at Microsoft India with the speech team in STCI AI and Cognition group. She did her PhD on "Neural Representation Learning for Speech and Audio Signals" with Dr. Sriram Ganapathy at Learning and Extraction of Acoustic Patterns (LEAP) lab, Dept. of Electrical Engineering, Indian Institute of Science (IISc), Bengaluru. She has also worked in Sony R&D Labs, Tokyo in 2017. Her research interests include interpretable deep learning, low-resource data modeling, raw waveform modeling, unsupervised/self-supervised learning, and biologically inspired deep learning.
 
-- [![Site]()](http://leap.ee.iisc.ac.in/purvi/)
-- [![LinkedIn]()](https://www.linkedin.com/in/purvi-agrawal-20288725/)
+- [Site](http://leap.ee.iisc.ac.in/purvi/)
+- [LinkedIn](https://www.linkedin.com/in/purvi-agrawal-20288725/)
 
 
 ```
@@ -29,4 +29,4 @@ Time: 5:00 PM (IST)
  
 ```
 
-<iframe width="720" height="415" src="https://www.youtube.com/watch?v=s-flHRDVVj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="515" src="https://www.youtube.com/embed/9qL63cYNz8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
