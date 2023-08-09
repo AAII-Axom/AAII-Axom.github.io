@@ -195,15 +195,22 @@ authors:
       email:          gagangayari@gmail.com
       domain:         Natural Language Processing
 
+    hrishav:
+      name:           Hrishav Bakul Barua
+      weblink:       https://www.linkedin.com/in/hrishav-bakul-barua-2b9b1765
+      avatar:         /assets/images/hrishav.jpg
+      bio:    PhD Fellow at Monash University, Research Scientist at TCS Research (On Leave)
+      email:          hrishav.barua@tcs.com
+      domain:         Robotics,  AI, Computer Vision,  Data Science,  ML/DL
+      
     bijit:
       name:           Bijit Deka
-      linkedin:       https://www.linkedin.com/in/bijit-deka
-      avatar:    /assets/images/bijit_deka.jpg
-      affiliation:    Senior Data Scientist, StepFunction
+      weblink:       https://www.linkedin.com/in/bijit-deka
+      avatar:         /assets/images/bijit_deka.jpg
+      bio:    Senior Data Scientist, StepFunction
       email:          bijitdeka23@gmail.com
       domain:         Time Series Analysis, Interpretable ML, Causal Analysis, Generative AI
     
-
 speakers:
     ankur:
       name:           Ankur Deka
