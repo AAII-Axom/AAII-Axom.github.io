@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAII Technical Lecture Series (ATLS-6)
+title: Robot learning
 subtitle: Homanga Bharadhwaj, Btech (IITK), Graduate Student Researcher (University of Toronto)
 tags: [Robot learning]
 image: assets/images/homanga.png

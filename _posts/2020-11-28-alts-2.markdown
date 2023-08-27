@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAII Technical Lecture Series (ATLS-2)
+title: GANs and it’s application in speech technology
 subtitle: Nagaraj Adiga (Ph.D., IITG | Post-Doc, University of Crete, Greece), Senior research scientist, Zapr Media Labs, Bangalore
 tags: [Conversational AI, machine-learning]
 image: assets/images/nagaraj.png

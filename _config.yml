@@ -344,7 +344,7 @@ speakers:
       name:           Neeraj Sharma
       linkedin:       https://www.linkedin.com/in/neeraj-sharma-5360ab196/
       speaker-img:    /assets/images/neeraj-sharma.jpg
-      affiliation:    Neeraj Sharma, Assistant Professor, Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati
+      affiliation:    Neeraj Sharma, Assistant Professor, IIT Guwahati
 
     anirudh-gupta:      
       name:           Anirudh Gupta
@@ -356,19 +356,31 @@ speakers:
       name:           Ranjay Krishna
       linkedin:       https://www.linkedin.com/in/ranjay-krishna-1a344444
       speaker-img:    /assets/images/ranjay_krishna.jpeg
-      affiliation:    Assistant Professor, Paul G. Allen School of Computer Science & Engineering, University of Washington
+      affiliation:    Assistant Professor, University of Washington
 
     ayon-borthakur:      
       name:           Ayon Borthakur
       linkedin:       https://www.linkedin.com/in/ayonborthakur
       speaker-img:    /assets/images/ayon_borthakur.webp
-      affiliation:    Assistant Professor, Department of Artificial Intelligence at IIT Hyderabad
+      affiliation:    Assistant Professor, IIT Hyderabad
 
     sanghamitra-goswami:      
       name:           Sanghamitra Goswami
       linkedin:       https://www.linkedin.com/in/sanghamitra-goswami-b8a8865
       speaker-img:    /assets/images/sanghamitragoswami.jpeg
       affiliation:    Blue Origin, California, USA
+
+    rajat-singhal:
+      name:           Rajat Singhal
+      linkedin:       https://www.linkedin.com/in/rajat-singhal/
+      speaker-img:    /assets/images/rajat-singhal.jpg
+      affiliation:    CEO, Black Basil Technologies, India
+
+    jaimini-bhattacharyya:
+      name:           Jaimini Bhattacharyya
+      linkedin:       https://www.linkedin.com/in/jaimini-bhattacharyya-ph-d-25877216/
+      speaker-img:    /assets/images/jaimini-bhattacharyya.jpg
+      affiliation:    Staff Operations Research Engineer, Micron Technology, India
 
 intra-aaii:
     kartik:

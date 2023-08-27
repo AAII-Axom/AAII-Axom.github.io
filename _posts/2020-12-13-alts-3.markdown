@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAII Technical Lecture Series (ATLS-3)
+title: Requisites for General Machine Learning Interviews
 subtitle: Dr. Banriskhem K. Khonglah, Senior Researcher,  Cerence Inc, Germany
 tags: [interviews, machine-learning]
 image: assets/images/banri.png

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAII Technical Lecture Series (ATLS-1)
+title: 𝐑𝐞𝐜𝐞𝐧𝐭 𝐭𝐫𝐞𝐧𝐝𝐬 𝐢𝐧 𝐜𝐨𝐧𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐀𝐈
 subtitle: 𝐃𝐞𝐛𝐦𝐚𝐥𝐲𝐚 𝐂𝐡𝐚𝐤𝐫𝐚𝐛𝐚𝐫𝐭𝐲 (𝐏𝐡.𝐃., 𝐉𝐨𝐡𝐧 𝐇𝐨𝐩𝐤𝐢𝐧𝐬 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐲, 𝐔𝐒𝐀), 𝐀𝐩𝐩𝐥𝐢𝐞𝐝 𝐒𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭, 𝐀𝐦𝐚𝐳𝐨𝐧 𝐀𝐥𝐞𝐱𝐚
 tags: [Conversational AI, machine-learning]
 image: assets/images/debmalya.png

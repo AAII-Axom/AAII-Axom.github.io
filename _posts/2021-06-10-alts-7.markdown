@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAII Technical Lecture Series (ATLS-7)
+title: Interpretable Representation Learning for Speech Signals
 subtitle: Purvi Agrawal (PhD IISc), Applied Researcher-II, Microsoft, India
 tags: [Interpretable Representation Learning for Speech Signals]
 image: assets/images/purvi.jpeg

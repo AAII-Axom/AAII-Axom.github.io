@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAII Technical Lecture Series (ATLS-4)
+title: AI knows when you are happy - Understanding the process of facial recognition through AI
 subtitle: Dr. Debanga Raj Neog, Co-founder & CTO, Nytilus, Canada (BTech, IIT Guwahati | Ph.D. from University of British Columbia)
 tags: [human-emotions, artificial-intelligence]
 image: assets/images/debanga.png

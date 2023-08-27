@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAII Technical Lecture Series (ATLS-5)
+title: Reinforcement Learning (RL) and Multi Agent RL
 subtitle: Ankur Deka (BTech, IIT Guwahati | MS Student, Carnegie Mellon University, USA)
 tags: [reinforcement-learning, multi-agent systems]
 image: assets/images/ankur.png
