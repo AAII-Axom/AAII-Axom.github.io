@@ -60,6 +60,7 @@
         {{ content }}
     </main>
 
+    
 
     <!-- Scripts: popper, bootstrap, theme, lunr -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -88,7 +89,9 @@
     </footer>
 
     {% include tracking-footer.html %}
+  {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
+  {% include carousel.html height="50" unit="%" duration="7" number="2" %}
 </body>
 
 </html>
