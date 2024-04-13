@@ -17,8 +17,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   
-authors:
-
+founding:
     sishir:
       name:           Sishir Kalita
       weblink:       https://www.linkedin.com/in/sishir-kalita-3a006120/
@@ -26,6 +25,7 @@ authors:
       bio:            "Senior Data Scientist / Speech Team Lead, Armsoftech.air"
       email:          sisiitg@gmail.com
       domain:         Speech technology, Natural Language Processing
+
 
     parismita:
       name:           Parismita Gogoi
@@ -59,14 +59,6 @@ authors:
       weblink:       azharlaskar.github.io
       domain:         Deep Learning Architecture, Speech Processing
 
-    gayatri:
-      name:           Gayatri Sharma
-      weblink:        https://www.linkedin.com/in/gayatri-sharma-1893111b2/
-      avatar:         /assets/images/gayatri.jpg
-      bio:            "Double majors undergraduate, IITM and Assam Engineering College"
-      email:          gayatrisharma6@yahoo.com
-      domain:         Data Science, Natural Language Processing, Computer Vision 
-
     hridoy:
       name:           Hridoy Sankar Dutta
       weblink:       https://hridaydutta123.github.io/
@@ -75,6 +67,32 @@ authors:
       email:          hridaydutta123@gmail.com
       domain:         Data-driven Cybersecurity, Social Network Analysis
 
+    abhigyan:
+      name:          Abhigyan Ganguly
+      weblink:       https://www.linkedin.com/in/abhigyan-ganguly-70b590160/
+      avatar:         /assets/images/abhigyan.jpg
+      bio:            "Software Engineer, Optum UHG"
+      email:          abhigyan.nits@gmail.com
+      domain:         Deep Learning, Natural Language Processing
+  
+    shashanka:
+      name:          Shashanka Handique
+      weblink:       https://www.linkedin.com/in/shashanka-handique-248055184/
+      avatar:         /assets/images/shashanka.jpg
+      bio:            "Software Engineer, Capgemini"
+      email:          shashankahandique@gmail.com
+      domain:         Graphic Designing
+
+authors:
+    gayatri:
+      name:           Gayatri Sharma
+      weblink:        https://www.linkedin.com/in/gayatri-sharma-1893111b2/
+      avatar:         /assets/images/gayatri.jpg
+      bio:            "Double majors undergraduate, IITM and Assam Engineering College"
+      email:          gayatrisharma6@yahoo.com
+      domain:         Data Science, Natural Language Processing, Computer Vision 
+
+ 
     ramyanee:
       name:          Ramyanee Kashyap
       weblink:       https://www.linkedin.com/in/ramyanee-kashyap
@@ -83,14 +101,7 @@ authors:
       email:          ramyanee.98@gmail.com
       domain:         Deep Learning
 
-    abhigyan:
-      name:          Abhigyan Ganguly
-      weblink:       https://www.linkedin.com/in/abhigyan-ganguly-70b590160/
-      avatar:         /assets/images/abhigyan.jpg
-      bio:            "Software Engineer, Optum UHG"
-      email:          abhigyan.nits@gmail.com
-      domain:         Deep Learning, Natural Language Processing
-
+ 
     orchid:
       name:          Orchid Chetia Phukan
       weblink:       https://www.linkedin.com/in/orchid-chetia-phukan-7ba816169
@@ -107,13 +118,6 @@ authors:
       email:          pamir.gogoi11@gmail.com
       domain:         Speech, Natural Language Processing
 
-    shashanka:
-      name:          Shashanka Handique
-      weblink:       https://www.linkedin.com/in/shashanka-handique-248055184/
-      avatar:         /assets/images/shashanka.jpg
-      bio:            "Software Engineer, Capgemini"
-      email:          shashankahandique@gmail.com
-      domain:         Graphic Designing
 
     shibani:
       name:          Shibani Das
@@ -210,6 +214,15 @@ authors:
       bio:    Senior Data Scientist, StepFunction
       email:          bijitdeka23@gmail.com
       domain:         Time Series Analysis, Interpretable ML, Causal Analysis, Generative AI
+
+
+    anirban:
+      name:           Anirban Dutta
+      weblink:       https://www.linkedin.com/in/dr-anirban-dutta-563b9b204
+      avatar:         /assets/images/anirbandutta.jpg
+      bio:    Speech Research and Solution Specialist, Armsoftech Private Limited
+      email:          None
+      domain:         Speech technology
     
 speakers:
     ankur:
@@ -381,6 +394,42 @@ speakers:
       linkedin:       https://www.linkedin.com/in/jaimini-bhattacharyya-ph-d-25877216/
       speaker-img:    /assets/images/jaimini-bhattacharyya.jpg
       affiliation:    Staff Operations Research Engineer, Micron Technology, India
+
+    ruban-phukan:
+      name:           Ruban Phukan
+      linkedin:       hhttps://www.linkedin.com/in/ruban/
+      speaker-img:    /assets/images/ruban.jpeg
+      affiliation:    Co-Founder & CEO at GoodGist.com
+
+    amit-juneja:
+      name:           Amit Juneja
+      linkedin:       https://www.linkedin.com/in/amjuneja/
+      speaker-img:    /assets/images/amitj.jpeg
+      affiliation:    CEO at Agile Data Decisions, Texas, US
+
+    Ramsri-Goutham-Golla:
+      name:           Ramsri Goutham Golla
+      linkedin:       https://www.linkedin.com/in/ramsrig/
+      speaker-img:    /assets/images/ramsri.jpeg
+      affiliation:    Founder at Questgen.ai and Cofounder at Supermeme.ai
+
+    Kei-Watanabe:
+      name:           Kei Watanabe
+      linkedin:       https://www.linkedin.com/in/kei-watanabe/
+      speaker-img:    /assets/images/watanabe.jpg
+      affiliation:    Co-Founder, Glasp.ai
+
+    chiranjib-sur:
+      name:           Chiranjib Sur
+      linkedin:       https://www.linkedin.com/in/chiranjibsuruf/
+      speaker-img:    /assets/images/chiranjibsur.jpg
+      affiliation:    Assistant Professor, IIT Guwahati
+
+    arnab-bhattacharya:
+      name:           Arnab Bhattacharya
+      linkedin:       https://www.linkedin.com/in/arnabbhattacharya3/
+      speaker-img:    /assets/images/arnabb.jpg
+      affiliation:    Assistant Professor, IIT Guwahati
 
 intra-aaii:
     kartik:

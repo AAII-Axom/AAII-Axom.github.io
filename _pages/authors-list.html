@@ -1,10 +1,47 @@
 ---
-title: "Team members (in alphabetical order)"
+title: "Members (in alphabetical order)"
 layout: default
 permalink: "/authors-list.html"
 ---
 
 <div class="container">
+<h4 class="font-weight-bold spanborder"><span> Founding {{page.title}} </span></h4>
+    <div class="row gap-y listrecent listrecent listauthor">
+    {% assign sortedAuthors = site.founding | sort %}
+    {% for author in sortedAuthors %}
+        <div class="col-lg-6 mb-4">
+            <div class="p-4 border rounded" style="background-color: rgb(247, 247, 247)">
+            <div class="row">
+            <div class="col-md-3 mb-4 mb-md-0"><img alt="{{ author[1].name }}" src="{{site.url}}/{{ author[1].avatar }}" class="rounded-circle" height="80" width="80"></div>
+            <div class="col-md-9">
+            <a href="{{ author[1].weblink }}">
+            <h4 class="text-dark mb-0"> {{ author[1].name }} </h4></a>
+            <div class="excerpt">{{ author[1].bio }}</div>
+            <a href="mailto: {{ author[1].email }}">{{ author[1].email }}</a>
+            
+            <div class="icon-block mt-3 d-flex justify-content-between"> 
+                {% if author[1].domain contains "," %}
+                    {% assign domains = author[1].domain | split: ", " %}
+                    {% for member in domains %} 
+                    <span class="taglist">
+                        <a class="sscroll btn btn-light btn-sm font-weight-bold">{{  member }}</a>
+                    </span>
+                    {% endfor %}
+                {% else %}
+                <span class="taglist">
+                    <a class="sscroll btn btn-light btn-sm font-weight-bold">{{  author[1].domain }}</a>
+                </span>
+                {% endif %}
+            <div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+
 <h4 class="font-weight-bold spanborder"><span> {{page.title}} </span></h4>
     <div class="row gap-y listrecent listrecent listauthor">
     {% assign sortedAuthors = site.authors | sort %}
