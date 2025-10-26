@@ -223,6 +223,14 @@ authors:
       bio:    Speech Research and Solution Specialist, Armsoftech Private Limited
       email:          None
       domain:         Speech technology
+
+    ankur:
+      name:           Ankur Deka
+      weblink:       https://ankur-deka.github.io/
+      avatar:         /assets/images/ankur-deka.jpg
+      bio:    Robotics ML Engineer, Tesla
+      email:          None
+      domain:         Robotics
     
 speakers:
     ankur:
