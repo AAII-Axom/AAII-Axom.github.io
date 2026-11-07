@@ -31,7 +31,7 @@ labels and comments.
 | Commit | Entry appended to the end of `_data/publications.yml`, schema-exact, quoting-safe (punctuation, Assamese, multi-line abstracts). Existing content is never touched. |
 | PR | Title `[New Publication] <title> (<year>)`, body follows the standard template, references and closes the submission issue. |
 | Merge | On PR merge: issue closed + labeled `publication/published`, head branch deleted, submitter notified. On close-without-merge: issue stays open with a note. |
-| Self-heal sweep | Runs weekly, on manual *Run workflow* (Actions tab — optionally for one issue number), and whenever the workflow/script changes. It processes any **open** submission issue that has no PR branch yet, and clears an inconsistent hand-applied `published` label (open issue, no merged PR) before reprocessing. |
+| Self-heal sweep | Runs weekly, on manual *Run workflow* (Actions tab — optionally for one issue number), and whenever the workflow/script changes. It processes any **open** submission issue that has no PR branch yet, clears an inconsistent hand-applied `published` label, and also **reopens + reprocesses closed submissions that were never actually merged** (e.g. auto-closed by a "fixes #N" commit). Already-listed or explicitly rejected (invalid/duplicate) issues are left alone. |
 
 Runs are serialized (`concurrency` group), so simultaneous submissions cannot
 race on the data file.

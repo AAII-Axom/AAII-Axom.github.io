@@ -377,11 +377,19 @@ def cmd_merge(ev):
            "details.")
 
 
-def open_form_issues():
-    out = sh("gh", "issue", "list", "--state", "open", "--limit", "100",
+def form_issues(state, limit=100):
+    out = sh("gh", "issue", "list", "--state", state, "--limit", str(limit),
              "--json", "number,body,labels,author", check=False)
     issues = json.loads(out or "[]")
     return [i for i in issues if FORM_MARKER in (i.get("body") or "")]
+
+
+def open_form_issues():
+    return form_issues("open")
+
+
+def label_names(issue):
+    return [l["name"] for l in issue.get("labels", []) if isinstance(l, dict)]
 
 
 def issue_has_branch(number):
@@ -403,14 +411,22 @@ def fetch_existing(base):
 
 
 def cmd_sweep(only_number=None):
-    """Self-heal pass: process open submission issues that have no PR yet.
+    """Self-heal pass: process submission issues that have no PR yet.
 
     Runs on pushes that change this workflow/script, on a weekly schedule, and
-    via manual workflow dispatch. Skips issues that already have a PR branch,
-    and heals the inconsistent state of an open issue labeled `published`
-    without a merged PR (a label a human applied by hand) — but only when the
-    publication is genuinely not yet in the list.
+    via manual workflow dispatch.
+
+    Open issues: skip ones that already have a PR branch; heal an open issue
+    labeled `published` without a merged PR (a label a human applied by hand)
+    when the publication is genuinely not yet listed; process the rest.
+
+    Closed issues: heal submissions that were closed without their publication
+    ever being merged (e.g. auto-closed by a 'fixes #N' commit message) —
+    reopen and reprocess them. Skip anything already listed (genuinely
+    published) or explicitly rejected (invalid/duplicate verdicts).
     """
+    base = os.environ.get("PUBLICATION_BASE_BRANCH", "master")
+
     for issue in open_form_issues():
         number = issue["number"]
         if only_number is not None and number != only_number:
@@ -418,9 +434,8 @@ def cmd_sweep(only_number=None):
         if issue_has_branch(number):
             print("sweep: issue #%d already has a PR branch; skipping" % number)
             continue
-        labels = [l["name"] for l in issue.get("labels", []) if isinstance(l, dict)]
+        labels = label_names(issue)
         if LABELS["published"][0] in labels:
-            base = os.environ.get("PUBLICATION_BASE_BRANCH", "master")
             f = parse_issue(issue.get("body") or "")
             if find_duplicates(fetch_existing(base), f):
                 print("sweep: issue #%d labeled published and already listed; "
@@ -431,6 +446,32 @@ def cmd_sweep(only_number=None):
             sh("gh", "issue", "comment", str(number), "--body",
                "Corrected an inconsistent state — this issue was labeled "
                "`published` without a merged pull request. Reprocessing now.")
+        process_issue(issue)
+
+    for issue in form_issues("closed", limit=50):
+        number = issue["number"]
+        if only_number is not None and number != only_number:
+            continue
+        if issue_has_branch(number):
+            continue
+        labels = label_names(issue)
+        if LABELS["invalid"][0] in labels or LABELS["duplicate"][0] in labels:
+            continue  # explicitly rejected by a maintainer
+        f = parse_issue(issue.get("body") or "")
+        if not f.get("title"):
+            continue
+        if find_duplicates(fetch_existing(base), f):
+            continue  # already in the list = genuinely published
+        print("sweep: issue #%d was closed without being published; "
+              "reopening" % number)
+        sh("gh", "issue", "reopen", str(number))
+        if LABELS["published"][0] in labels:
+            sh("gh", "issue", "edit", str(number), "--remove-label",
+               LABELS["published"][0])
+        sh("gh", "issue", "comment", str(number), "--body",
+           "This submission was closed without its publication ever being "
+           "merged (likely auto-closed by a commit reference). Reopened and "
+           "reprocessed automatically.")
         process_issue(issue)
 
 
