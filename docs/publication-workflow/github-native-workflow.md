@@ -26,7 +26,7 @@ labels and comments.
 |---|---|
 | Detect | Only issues containing the issue-form marker header are processed. Reprocesses on **edit** or **reopen**, guarded against double-PRs (issues already labeled `pr-open`/`published` are skipped). |
 | Validate | title/authors/venue/type/year present; year matches `(19|20)\d\d`. DOI/URL/PDF are entirely optional — a paper with no link yet is legitimate. |
-| Deduplicate | Against `_data/publications.yml` on the base branch: normalized DOI → normalized title → first author + year. Matches **flag** (`publication/duplicate`), never silently reject. |
+| Deduplicate | Against `_data/publications.yml` on the base branch: normalized DOI (exact) → normalized title (substring). Matches **flag** (`publication/duplicate`), never silently reject. No author+year heuristic — authors legitimately publish several papers per year (issue #32). |
 | Branch | `publication/issue-<N>-<title-slug>` — unique per issue, so retried or identical titles can never collide. |
 | Commit | Entry appended to the end of `_data/publications.yml`, schema-exact, quoting-safe (punctuation, Assamese, multi-line abstracts). Existing content is never touched. |
 | PR | Title `[New Publication] <title> (<year>)`, body follows the standard template, references and closes the submission issue. |

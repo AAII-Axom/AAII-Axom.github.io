@@ -136,24 +136,23 @@ def validate(f):
 
 
 def find_duplicates(existing, f):
-    """Return a human-readable reason if the publication looks already listed."""
+    """Return a human-readable reason if the publication looks already listed.
+
+    Two signals only: normalized DOI (exact) and normalized title (substring).
+    An author+year heuristic was removed — authors legitimately publish
+    multiple papers in the same year (see issue #32), and a year string
+    matches every entry in the list, so it produced false positives.
+    """
     blob = existing.lower()
     squashed = norm_text(existing)
     doi = normalize_doi(f.get("doi", ""))
     title = norm_text(f.get("title", ""))
-    first_author = f.get("authors", "").split(",")[0].strip().lower()
-    year = f.get("year", "").strip()
     if doi and doi in blob:
         return "its DOI (`%s`) is already in the publication list" % doi
     if title and title in squashed:
         return (
             "a publication with the same (or very similar) title is already "
             "in the list"
-        )
-    if first_author and year and first_author in blob and year in blob:
-        return (
-            "the first author (`%s`) already has a `%s` entry — please "
-            "double-check it is not the same paper" % (first_author, year)
         )
     return None
 
