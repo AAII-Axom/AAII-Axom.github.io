@@ -14,6 +14,18 @@ on:
     types: [opened, reopened, edited]  # edited/reopened => automatic reprocess
   pull_request:
     types: [closed]
+  workflow_dispatch:                   # manual "Run workflow" (optional issue number)
+    inputs:
+      issue-number:
+        description: "Reprocess one open issue (blank = sweep all)"
+        required: false
+  schedule:
+    - cron: "23 4 * * 1"               # weekly self-heal sweep
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/publication-pr.yml
+      - scripts/publication_workflow.py
 
 # Serialize runs so two submissions can never race on the data file.
 concurrency:
@@ -54,3 +66,20 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/publication_workflow.py merge
+
+  sweep:
+    name: Self-heal sweep
+    if: >-
+      github.event_name == 'push' ||
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Reprocess open submissions without PRs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLICATION_BASE_BRANCH: ${{ vars.PUBLICATION_BASE_BRANCH || 'master' }}
+          SWEEP_ISSUE_NUMBER: ${{ github.event.inputs.issue-number }}
+        run: python3 scripts/publication_workflow.py sweep

@@ -252,7 +252,10 @@ def ensure_labels():
 # ------------------------------------------------------------------ modes
 
 def cmd_submission(ev):
-    issue = ev["issue"]
+    process_issue(ev["issue"])
+
+
+def process_issue(issue):
     number = issue["number"]
     body = issue.get("body") or ""
     if FORM_MARKER not in body:
@@ -288,21 +291,18 @@ def cmd_submission(ev):
         return
 
     f["year"] = f["year"].strip()
-    submitted_by = (
-        f.get("submitted_by", "").strip() or "@" + issue["user"]["login"]
+    # event payloads use issue.user.login; `gh issue list` JSON uses author.login
+    author = (issue.get("user") or issue.get("author") or {}).get("login", "")
+    submitted_by = f.get("submitted_by", "").strip() or (
+        "@" + author if author else "unknown"
     )
-    base = os.environ.get("PUBLICATION_BASE_BRANCH", "test/publications")
+    base = os.environ.get("PUBLICATION_BASE_BRANCH", "master")
 
     sh("git", "config", "user.name", "github-actions[bot]")
     sh("git", "config", "user.email",
        "41898282+github-actions[bot]@users.noreply.github.com")
-    sh("git", "fetch", "--quiet", "origin", base)
 
-    r = subprocess.run(
-        ["git", "show", "FETCH_HEAD:%s" % DATA_FILE],
-        capture_output=True, text=True,
-    )
-    existing = r.stdout if r.returncode == 0 else ""
+    existing = fetch_existing(base)
 
     dup = find_duplicates(existing, f)
     if dup:
@@ -377,15 +377,75 @@ def cmd_merge(ev):
            "details.")
 
 
+def open_form_issues():
+    out = sh("gh", "issue", "list", "--state", "open", "--limit", "100",
+             "--json", "number,body,labels,author", check=False)
+    issues = json.loads(out or "[]")
+    return [i for i in issues if FORM_MARKER in (i.get("body") or "")]
+
+
+def issue_has_branch(number):
+    r = subprocess.run(
+        ["git", "ls-remote", "--heads", "origin",
+         "publication/issue-%d-*" % number],
+        capture_output=True, text=True,
+    )
+    return bool(r.stdout.strip())
+
+
+def fetch_existing(base):
+    sh("git", "fetch", "--quiet", "origin", base)
+    r = subprocess.run(
+        ["git", "show", "FETCH_HEAD:%s" % DATA_FILE],
+        capture_output=True, text=True,
+    )
+    return r.stdout if r.returncode == 0 else ""
+
+
+def cmd_sweep(only_number=None):
+    """Self-heal pass: process open submission issues that have no PR yet.
+
+    Runs on pushes that change this workflow/script, on a weekly schedule, and
+    via manual workflow dispatch. Skips issues that already have a PR branch,
+    and heals the inconsistent state of an open issue labeled `published`
+    without a merged PR (a label a human applied by hand) — but only when the
+    publication is genuinely not yet in the list.
+    """
+    for issue in open_form_issues():
+        number = issue["number"]
+        if only_number is not None and number != only_number:
+            continue
+        if issue_has_branch(number):
+            print("sweep: issue #%d already has a PR branch; skipping" % number)
+            continue
+        labels = [l["name"] for l in issue.get("labels", []) if isinstance(l, dict)]
+        if LABELS["published"][0] in labels:
+            base = os.environ.get("PUBLICATION_BASE_BRANCH", "master")
+            f = parse_issue(issue.get("body") or "")
+            if find_duplicates(fetch_existing(base), f):
+                print("sweep: issue #%d labeled published and already listed; "
+                      "skipping" % number)
+                continue
+            sh("gh", "issue", "edit", str(number), "--remove-label",
+               LABELS["published"][0])
+            sh("gh", "issue", "comment", str(number), "--body",
+               "Corrected an inconsistent state — this issue was labeled "
+               "`published` without a merged pull request. Reprocessing now.")
+        process_issue(issue)
+
+
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else ""
-    ev = event()
+    ev = event() if os.environ.get("GITHUB_EVENT_PATH") else {}
     if mode == "submission":
         cmd_submission(ev)
     elif mode == "merge":
         cmd_merge(ev)
+    elif mode == "sweep":
+        only = os.environ.get("SWEEP_ISSUE_NUMBER", "").strip()
+        cmd_sweep(int(only) if only.isdigit() else None)
     else:
-        sys.exit("usage: publication_workflow.py submission|merge")
+        sys.exit("usage: publication_workflow.py submission|merge|sweep")
 
 
 if __name__ == "__main__":

@@ -31,6 +31,7 @@ labels and comments.
 | Commit | Entry appended to the end of `_data/publications.yml`, schema-exact, quoting-safe (punctuation, Assamese, multi-line abstracts). Existing content is never touched. |
 | PR | Title `[New Publication] <title> (<year>)`, body follows the standard template, references and closes the submission issue. |
 | Merge | On PR merge: issue closed + labeled `publication/published`, head branch deleted, submitter notified. On close-without-merge: issue stays open with a note. |
+| Self-heal sweep | Runs weekly, on manual *Run workflow* (Actions tab — optionally for one issue number), and whenever the workflow/script changes. It processes any **open** submission issue that has no PR branch yet, and clears an inconsistent hand-applied `published` label (open issue, no merged PR) before reprocessing. |
 
 Runs are serialized (`concurrency` group), so simultaneous submissions cannot
 race on the data file.
@@ -87,6 +88,8 @@ Works entirely on `test/publications` — nothing can reach the live site:
 | PR needs a correction | Either push a commit to the PR branch, or close the PR (issue stays open for re-review) and ask for a corrected submission. |
 | `publication/invalid` flagged | The submitter edits the issue (or closes & reopens) — reprocessed automatically with the stale label cleared. |
 | `publication/duplicate` flagged wrongly | Reply on the issue, then remove the `publication/duplicate` label and close & reopen the issue to reprocess it. |
+| A submission seems stuck (no PR, wrong labels) | Actions tab → *Publication submission* → **Run workflow** (optionally with the issue number) — the sweep self-heals it. |
+| Never hand-apply `publication/published` | That label is bot-only (it means "PR merged"). The sweep removes it from open issues that have no merged PR. |
 | Submitter has no GitHub account | A maintainer opens the issue form on their behalf and puts their name in *Submitted by* — the entry records that name. |
 | Automation run failed (red ✗ on an issue) | Check the run log (Actions tab). Fix the cause, then close & reopen the issue to reprocess. |
 | Editing a published entry | Ordinary PR against `_data/publications.yml` — schema is documented in the file header. |
