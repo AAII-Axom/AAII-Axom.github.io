@@ -49,3 +49,12 @@
   year: 2026
   submitted_by: "@hridaydutta123"
   date_added: "2026-11-07"
+
+- title: "Morphological Analysis and Disambiguation of Agglutinative Assamese through Rule-Based Synthesis and Neural Candidate Ranking"
+  authors: "Pragyanur Saikia, Utpal Sharma, Arindam Karmakar"
+  venue: "Findings of EMNLP"
+  type: "journal"
+  year: 2026
+  url: "https://aclanthology.org/2026.findings-emnlp.2118/"
+  submitted_by: "@Pragyanur"
+  date_added: "2026-11-08"
